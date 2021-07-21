@@ -1,0 +1,6 @@
+[submodule "KiCad-Schematic-Symbol-Libraries"]
+	path = KiCad-Schematic-Symbol-Libraries
+	url = https://github.com/xesscorp/KiCad-Schematic-Symbol-Libraries
+[submodule "lpddr4-testbed"]
+	path = lpddr4-testbed
+	url = https://github.com/antmicro/lpddr4-testbed/
