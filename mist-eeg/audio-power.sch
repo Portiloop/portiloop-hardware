@@ -384,10 +384,10 @@ Text Notes 2300 1000 0    79   ~ 16
 Text Notes 2350 4800 0    79   ~ 16
 5V0 (clean regulator)
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP5
 U 1 1 60C25634
 P 3900 2750
-F 0 "TP4" H 3900 3075 50  0000 C CNN
+F 0 "TP5" H 3900 3075 50  0000 C CNN
 F 1 "+1V8_ANA" H 3900 2984 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4100 2750 50  0001 C CNN
 F 3 "~" H 4100 2750 50  0001 C CNN
@@ -398,10 +398,10 @@ Wire Wire Line
 	3900 2750 4000 2750
 Connection ~ 3900 2750
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP4
 U 1 1 60C2D0B0
 P 3850 6450
-F 0 "TP3" H 3850 6775 50  0000 C CNN
+F 0 "TP4" H 3850 6775 50  0000 C CNN
 F 1 "+5V0_ANA" H 3850 6684 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 6450 50  0001 C CNN
 F 3 "~" H 4050 6450 50  0001 C CNN
