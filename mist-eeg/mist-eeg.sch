@@ -369,7 +369,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1250 2500 1250
 Text Notes 7600 6500 0    79   ~ 16
-State:\n - Preliminary schematics: to do\n - Layout: to do\n - Revised schematic: to do\n - Schematic validation: to do\n - Layout validation: to do\n - BOM optimization: to do\n - Physical testing: to do
+State:\n - Preliminary schematics: done\n - Layout: to do\n - Revised schematic: to do\n - Schematic validation: to do\n - Layout validation: to do\n - BOM optimization: to do\n - Physical testing: to do
 Text Notes 8900 1300 0    79   ~ 16
 PS I2C addresses:\n - 0x5C: HW monitor\n - 0x20: USB controller\n - 0x67: Clock fallback\n - 0x68: Clock
 $Comp
@@ -378,7 +378,7 @@ U 1 1 60C34BA2
 P 4150 7050
 F 0 "H1" H 4250 7096 50  0000 L CNN
 F 1 "MountingHole" H 4250 7005 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 4150 7050 50  0001 C CNN
+F 2 "mist-eeg:MountingHole_1.6mm" H 4150 7050 50  0001 C CNN
 F 3 "~" H 4150 7050 50  0001 C CNN
 	1    4150 7050
 	1    0    0    -1  
@@ -389,12 +389,12 @@ U 1 1 60C34DC0
 P 4450 7050
 F 0 "H2" H 4550 7096 50  0000 L CNN
 F 1 "MountingHole" H 4550 7005 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 4450 7050 50  0001 C CNN
+F 2 "mist-eeg:MountingHole_1.6mm" H 4450 7050 50  0001 C CNN
 F 3 "~" H 4450 7050 50  0001 C CNN
 	1    4450 7050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 7200 0    50   Input ~ 0
+Text GLabel 4100 7200 0    50   Input ~ 0
 SHIELD
 Wire Wire Line
 	4450 7200 4450 7150
@@ -459,9 +459,6 @@ F10 "~RST~" I R 2450 4500 50
 $EndSheet
 Wire Wire Line
 	4450 7200 4600 7200
-Wire Wire Line
-	4000 7200 4150 7200
-Connection ~ 4150 7200
 Text Label 2500 1550 0    50   ~ 0
 +5V_SOM
 Wire Wire Line
@@ -541,4 +538,7 @@ Text Label 4450 4100 2    50   ~ 0
 ~SD_RST~
 Wire Wire Line
 	2450 4500 2550 4500
+Wire Wire Line
+	4100 7200 4150 7200
+Connection ~ 4150 7200
 $EndSCHEMATC
