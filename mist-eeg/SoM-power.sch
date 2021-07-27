@@ -2048,26 +2048,6 @@ Wire Wire Line
 Connection ~ 6950 4450
 Wire Wire Line
 	6950 4450 6950 4600
-Wire Wire Line
-	7100 4450 6950 4450
-Wire Wire Line
-	7100 4450 7150 4450
-Connection ~ 7100 4450
-Wire Wire Line
-	7100 4450 7100 4600
-$Comp
-L Device:C_Small C?
-U 1 1 6137E636
-P 7100 4700
-AR Path="/609A79EB/60F89803/6137E636" Ref="C?"  Part="1" 
-AR Path="/609A79EB/61372D3E/6137E636" Ref="C43"  Part="1" 
-F 0 "C43" V 7050 4750 50  0000 L CNN
-F 1 "22uF" H 7100 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 4700 50  0001 C CNN
-F 3 "~" H 7100 4700 50  0001 C CNN
-	1    7100 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 6137E63C
@@ -2082,12 +2062,7 @@ F 3 "~" H 6950 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 4800 7100 4950
-Wire Wire Line
 	6950 4800 6950 4950
-Wire Wire Line
-	6950 4950 7100 4950
-Connection ~ 6950 4950
 Connection ~ 6800 4950
 Wire Wire Line
 	6800 4950 6950 4950
@@ -2171,4 +2146,6 @@ F 3 "" H 9050 3050 50  0001 C CNN
 	1    9050 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 4450 7150 4450
 $EndSCHEMATC

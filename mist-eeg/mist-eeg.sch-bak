@@ -378,7 +378,7 @@ U 1 1 60C34BA2
 P 4150 7050
 F 0 "H1" H 4250 7096 50  0000 L CNN
 F 1 "MountingHole" H 4250 7005 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 4150 7050 50  0001 C CNN
+F 2 "mist-eeg:MountingHole_1.6mm" H 4150 7050 50  0001 C CNN
 F 3 "~" H 4150 7050 50  0001 C CNN
 	1    4150 7050
 	1    0    0    -1  
@@ -389,7 +389,7 @@ U 1 1 60C34DC0
 P 4450 7050
 F 0 "H2" H 4550 7096 50  0000 L CNN
 F 1 "MountingHole" H 4550 7005 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 4450 7050 50  0001 C CNN
+F 2 "mist-eeg:MountingHole_1.6mm" H 4450 7050 50  0001 C CNN
 F 3 "~" H 4450 7050 50  0001 C CNN
 	1    4450 7050
 	1    0    0    -1  
