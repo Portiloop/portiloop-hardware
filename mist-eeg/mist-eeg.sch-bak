@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 12
+Sheet 1 11
 Title "Portiloop"
 Date "2021-06-07"
 Rev "1A"
@@ -18,7 +18,7 @@ S 1500 1200 950  500
 U 609A79EB
 F0 "power" 50
 F1 "power.sch" 50
-F2 "+3V3" O L 1500 1450 50 
+F2 "+3V3_SD" O L 1500 1450 50 
 F3 "+5V0_ANA" O L 1500 1250 50 
 F4 "+1V8_ANA" O L 1500 1350 50 
 F5 "PWR_SDA" B R 2450 1350 50 
@@ -371,7 +371,7 @@ Wire Wire Line
 Text Notes 7600 6500 0    79   ~ 16
 State:\n - Preliminary schematics: done\n - Layout: to do\n - Revised schematic: to do\n - Schematic validation: to do\n - Layout validation: to do\n - BOM optimization: to do\n - Physical testing: to do
 Text Notes 8900 1300 0    79   ~ 16
-PS I2C addresses:\n - 0x5C: HW monitor\n - 0x20: USB controller\n - 0x67: Clock fallback\n - 0x68: Clock
+PS I2C addresses:\n - 0x5C: HW monitor
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 60C34BA2
@@ -394,46 +394,10 @@ F 3 "~" H 4450 7050 50  0001 C CNN
 	1    4450 7050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4100 7200 0    50   Input ~ 0
-SHIELD
-Wire Wire Line
-	4450 7200 4450 7150
-Connection ~ 4450 7200
-Wire Wire Line
-	4150 7150 4150 7200
-Wire Wire Line
-	4150 7200 4450 7200
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 60D2C07C
-P 4700 7200
-AR Path="/609A79EB/60EAD252/60D2C07C" Ref="FB?"  Part="1" 
-AR Path="/609A79EB/60BBE340/60D2C07C" Ref="FB?"  Part="1" 
-AR Path="/60D2C07C" Ref="FB1"  Part="1" 
-F 0 "FB1" V 4845 7200 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 4936 7200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 7200 50  0001 C CNN
-F 3 "~" H 4700 7200 50  0001 C CNN
-	1    4700 7200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 7200 4850 7200
 Text Label 2500 1450 0    50   ~ 0
 AUDIO_PWR_OK
 Wire Wire Line
 	2500 1450 2450 1450
-$Comp
-L power:GND #PWR01
-U 1 1 610A29B2
-P 4850 7200
-F 0 "#PWR01" H 4850 6950 50  0001 C CNN
-F 1 "GND" V 4855 7072 50  0000 R CNN
-F 2 "" H 4850 7200 50  0001 C CNN
-F 3 "" H 4850 7200 50  0001 C CNN
-	1    4850 7200
-	0    -1   -1   0   
-$EndComp
 Text Label 1450 1450 2    50   ~ 0
 +3V3_SD
 Wire Wire Line
@@ -457,8 +421,6 @@ F8 "~CD~" O R 2450 4400 50
 F9 "+PWR_IN" I L 1700 4650 50 
 F10 "~RST~" I R 2450 4500 50 
 $EndSheet
-Wire Wire Line
-	4450 7200 4600 7200
 Text Label 2500 1550 0    50   ~ 0
 +5V_SOM
 Wire Wire Line
@@ -538,7 +500,6 @@ Text Label 4450 4100 2    50   ~ 0
 ~SD_RST~
 Wire Wire Line
 	2450 4500 2550 4500
-Wire Wire Line
-	4100 7200 4150 7200
-Connection ~ 4150 7200
+NoConn ~ 4450 7150
+NoConn ~ 4150 7150
 $EndSCHEMATC

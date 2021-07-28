@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 11 12
+Sheet 10 11
 Title "Portiloop"
 Date "2021-06-07"
 Rev "1A"
@@ -66,8 +66,6 @@ Wire Wire Line
 Connection ~ 4200 5100
 Wire Wire Line
 	4200 5100 4200 5200
-Text GLabel 6000 5100 2    50   Input ~ 0
-SHIELD
 Wire Wire Line
 	6000 5100 5950 5100
 Text HLabel 2300 5000 0    50   Output ~ 0
@@ -191,21 +189,6 @@ F 1 "SD_RST" V 8745 4278 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 8700 4400 50  0001 C CNN
 F 3 "~" H 8700 4400 50  0001 C CNN
 	1    8700 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3850 3900 3900 3900
-$Comp
-L power:GND #PWR0118
-U 1 1 60ABC861
-P 3850 3900
-AR Path="/60A0E6BC/60ABC861" Ref="#PWR0118"  Part="1" 
-AR Path="/60A7CCD6/60ABC861" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0118" H 3850 3650 50  0001 C CNN
-F 1 "GND" H 3855 3727 50  0000 C CNN
-F 2 "" H 3850 3900 50  0001 C CNN
-F 3 "" H 3850 3900 50  0001 C CNN
-	1    3850 3900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -529,5 +512,48 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 4750 50  0001 C CNN
 F 3 "~" H 8600 4650 50  0001 C CNN
 	1    8600 4650
 	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 6130D5F8
+P 3850 3900
+F 0 "#PWR0118" H 3850 3650 50  0001 C CNN
+F 1 "GND" V 3855 3772 50  0000 R CNN
+F 2 "" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3900 3900 3900
+Wire Wire Line
+	6200 5100 6250 5100
+$Comp
+L power:GND #PWR?
+U 1 1 610A6E66
+P 6250 5100
+AR Path="/610A6E66" Ref="#PWR?"  Part="1" 
+AR Path="/60A0E6BC/610A6E66" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 6250 4850 50  0001 C CNN
+F 1 "GND" V 6255 4972 50  0000 R CNN
+F 2 "" H 6250 5100 50  0001 C CNN
+F 3 "" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 610A6E6C
+P 6100 5100
+AR Path="/609A79EB/60EAD252/610A6E6C" Ref="FB?"  Part="1" 
+AR Path="/609A79EB/60BBE340/610A6E6C" Ref="FB?"  Part="1" 
+AR Path="/610A6E6C" Ref="FB?"  Part="1" 
+AR Path="/60A0E6BC/610A6E6C" Ref="FB1"  Part="1" 
+F 0 "FB1" V 6245 5100 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 6336 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 5100 50  0001 C CNN
+F 3 "~" H 6100 5100 50  0001 C CNN
+	1    6100 5100
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

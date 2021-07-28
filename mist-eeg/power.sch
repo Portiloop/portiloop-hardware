@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 12
+Sheet 2 11
 Title "Portiloop"
 Date "2021-06-07"
 Rev "1A"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 7300 4450 2    50   Output ~ 0
-+3V3
++3V3_SD
 Text Notes 1750 5950 0    50   ~ 0
 3V3 V @ 1.75 A (TPS84A20):\n - SD card, 2.88 W max\n\n5V0 (clean) @ 50 mA:\n - ADS1299 Analog supply\n - LTC2947 supply\n\n1V8 (clean) @ 10 mA\n - ADAU1777 Analog supply
 Text HLabel 7300 5000 2    50   Output ~ 0
@@ -23,18 +23,6 @@ Text HLabel 7300 5100 2    50   Output ~ 0
 +1V8_ANA
 Text HLabel 3150 1500 2    50   Input ~ 0
 PWR_SCL
-$Sheet
-S 1450 2650 600  400 
-U 60EAD252
-F0 "USB" 50
-F1 "USB.sch" 50
-F2 "+VSYS" O R 2050 2750 50 
-F3 "SCL" I R 2050 2850 50 
-F4 "SDA" B R 2050 2950 50 
-F5 "~IRQ~" O L 1450 2750 50 
-F6 "RST" I L 1450 2850 50 
-F7 "ENA" O L 1450 2950 50 
-$EndSheet
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 60BBE84B
@@ -46,10 +34,6 @@ F 3 "~" H 5750 2550 50  0001 C CNN
 	1    5750 2550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7400 2550 7400 2500
-Text Notes 2800 2950 0    50   ~ 0
-5V @ 2A\nIntegrated ideal diode
 Text Notes 5650 2500 2    50   ~ 0
 5V - 14V @ 10W
 $Comp
@@ -1985,68 +1969,6 @@ HWMon
 Wire Notes Line
 	500  2500 4550 2500
 $Comp
-L components:LTC4412HV U2
-U 1 1 60E63456
-P 8250 2500
-F 0 "U2" H 8250 2825 50  0000 C CNN
-F 1 "LTC4412HV" H 8250 2734 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8200 2400 50  0001 C CNN
-F 3 "" H 8200 2400 50  0001 C CNN
-	1    8250 2500
-	1    0    0    -1  
-$EndComp
-Text Label 1400 2950 2    50   ~ 0
-~ENA_EXT~
-Wire Wire Line
-	1400 2950 1450 2950
-Text HLabel 2100 2950 2    50   BiDi ~ 0
-PWR_SDA
-Wire Wire Line
-	2100 2950 2050 2950
-Text HLabel 2100 2850 2    50   Input ~ 0
-PWR_SCL
-Wire Wire Line
-	2100 2850 2050 2850
-Wire Wire Line
-	7900 2500 7400 2500
-Text Label 7850 2600 2    50   ~ 0
-~ENA_EXT~
-Wire Wire Line
-	7850 2600 7900 2600
-$Comp
-L Device:R_Small R8
-U 1 1 60E9A912
-P 9000 2400
-F 0 "R8" V 8804 2400 50  0000 C CNN
-F 1 "4k7" V 8895 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 9000 2400 50  0001 C CNN
-F 3 "~" H 9000 2400 50  0001 C CNN
-	1    9000 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9150 2400 9100 2400
-$Comp
-L Connector:TestPoint TP1
-U 1 1 60EA9E7A
-P 8700 2400
-F 0 "TP1" H 8700 2725 50  0000 C CNN
-F 1 "EXT_IN" H 8700 2634 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8900 2400 50  0001 C CNN
-F 3 "~" H 8900 2400 50  0001 C CNN
-	1    8700 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 2400 8700 2400
-Text Label 2100 2750 0    50   ~ 0
-+PWR_IN
-Wire Wire Line
-	2100 2750 2050 2750
-Wire Wire Line
-	8700 2400 8900 2400
-Connection ~ 8700 2400
-$Comp
 L Device:D_TVS D?
 U 1 1 60ED35C5
 P 6400 2600
@@ -2062,47 +1984,11 @@ $EndComp
 Wire Wire Line
 	6400 2750 6400 2800
 Text Label 6600 2450 0    50   ~ 0
-+EXT_IN
-Wire Wire Line
-	6000 2600 6000 2550
-Wire Wire Line
-	6000 2550 5950 2550
-Text Label 7850 2400 2    50   ~ 0
-+EXT_IN
-Wire Wire Line
-	7850 2400 7900 2400
-Text Label 8600 2850 2    50   ~ 0
 +PWR_IN
 Wire Wire Line
-	8650 2600 8600 2600
-Text Label 9150 2850 0    50   ~ 0
-+EXT_IN
-$Comp
-L Device:Q_PMOS_GDS Q2
-U 1 1 60EB8825
-P 8900 2750
-F 0 "Q2" V 9149 2750 50  0000 C CNN
-F 1 "20V @ 3A PMOS" V 9240 2750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 9100 2850 50  0001 C CNN
-F 3 "~" H 8900 2750 50  0001 C CNN
-	1    8900 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8900 2500 8900 2550
-Wire Wire Line
-	8600 2500 8900 2500
-Wire Wire Line
-	8700 2850 8650 2850
-Connection ~ 8650 2850
-Wire Wire Line
-	8650 2850 8650 2600
-Wire Wire Line
-	9150 2850 9100 2850
-Wire Wire Line
-	8600 2850 8650 2850
+	6000 2550 5950 2550
 Text Notes 500  3300 0    50   ~ 10
-USB power
+HWMon bypass
 Wire Notes Line
 	500  3300 10500 3300
 Text Notes 4550 3300 0    50   ~ 10
@@ -2158,7 +2044,7 @@ F0 "SD-power" 50
 F1 "SD-power.sch" 50
 F2 "OK" O R 7250 4600 50 
 F3 "+PWR" I L 6450 4450 50 
-F4 "+3V3" O R 7250 4450 50 
+F4 "+3V3_SD" O R 7250 4450 50 
 $EndSheet
 Text Label 6400 4450 2    50   ~ 0
 +PWR
@@ -2287,17 +2173,6 @@ F 3 "" H 6400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
-U 1 1 610A975E
-P 7400 2550
-F 0 "#PWR012" H 7400 2300 50  0001 C CNN
-F 1 "GND" H 7405 2377 50  0000 C CNN
-F 2 "" H 7400 2550 50  0001 C CNN
-F 3 "" H 7400 2550 50  0001 C CNN
-	1    7400 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR09
 U 1 1 610A9BEC
 P 5400 1350
@@ -2339,17 +2214,6 @@ F 1 "GND" V 1905 1572 50  0000 R CNN
 F 2 "" H 1900 1700 50  0001 C CNN
 F 3 "" H 1900 1700 50  0001 C CNN
 	1    1900 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR014
-U 1 1 61175ADA
-P 9150 2400
-F 0 "#PWR014" H 9150 2250 50  0001 C CNN
-F 1 "+3V3" V 9165 2528 50  0000 L CNN
-F 2 "" H 9150 2400 50  0001 C CNN
-F 3 "" H 9150 2400 50  0001 C CNN
-	1    9150 2400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2488,8 +2352,6 @@ Wire Wire Line
 	8950 5850 8950 5800
 Wire Wire Line
 	8950 5600 8950 5550
-Text HLabel 8950 5100 1    50   Input ~ 0
-+5V_SOM
 Wire Wire Line
 	8950 5100 8950 5150
 $Comp
@@ -2510,8 +2372,6 @@ Wire Wire Line
 Connection ~ 8600 5350
 Wire Wire Line
 	8600 5350 8650 5350
-Text HLabel 8600 5050 1    50   Input ~ 0
-+5V_SOM
 Wire Wire Line
 	8600 5050 8600 5100
 $Comp
@@ -2525,6 +2385,49 @@ F 1 "1k" V 9145 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8950 5700 50  0001 C CNN
 F 3 "~" H 8950 5700 50  0001 C CNN
 	1    8950 5700
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2900 2    50   ~ 0
++PWR_IN
+Text Label 2500 2900 0    50   ~ 0
++PWR
+$Comp
+L Device:R_Small R8
+U 1 1 612F92EA
+P 2300 2900
+F 0 "R8" V 2104 2900 50  0000 C CNN
+F 1 "DNF" V 2195 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2300 2900 50  0001 C CNN
+F 3 "~" H 2300 2900 50  0001 C CNN
+	1    2300 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 2900 2200 2900
+Wire Wire Line
+	2400 2900 2500 2900
+Wire Wire Line
+	6000 2600 6000 2550
+$Comp
+L power:+3V3 #PWR0139
+U 1 1 611097F5
+P 8600 5050
+F 0 "#PWR0139" H 8600 4900 50  0001 C CNN
+F 1 "+3V3" H 8615 5223 50  0000 C CNN
+F 2 "" H 8600 5050 50  0001 C CNN
+F 3 "" H 8600 5050 50  0001 C CNN
+	1    8600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0140
+U 1 1 61109884
+P 8950 5100
+F 0 "#PWR0140" H 8950 4950 50  0001 C CNN
+F 1 "+3V3" H 8965 5273 50  0000 C CNN
+F 2 "" H 8950 5100 50  0001 C CNN
+F 3 "" H 8950 5100 50  0001 C CNN
+	1    8950 5100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -39,11 +39,11 @@ Text HLabel 5500 3200 2    50   Output ~ 0
 USER2_G
 Text HLabel 5500 3300 2    50   Output ~ 0
 USER2_B
-Text HLabel 9800 1400 0    50   Output ~ 0
+Text HLabel 9800 1700 0    50   Output ~ 0
 USER3_R
 Text HLabel 9800 1500 0    50   Output ~ 0
 USER3_G
-Text HLabel 9800 1700 0    50   Output ~ 0
+Text HLabel 9800 1400 0    50   Output ~ 0
 USER3_B
 Text HLabel 5000 3700 0    50   Output ~ 0
 AQUISITION
@@ -4800,7 +4800,7 @@ Text Label 10300 4900 0    50   ~ 0
 Wire Wire Line
 	10300 4900 10200 4900
 Text Notes 600  6300 0    50   ~ 0
-SPI1 => EEG\nUSB1 => Power?\nSAI2 => Audio\nSD2 => SD card\nJTAG => Header?\nI2C2 => Audio I2C\nI2C3 => Control I2C\nUART1 => Serial console\nPWM1 => USER1_R\nPWM2 => USER1_G\nPWM3 => USER1_B\nPWM4 => Extra 1\nGPIO6 => USER2_R\nGPIO7 => USER2_G\nGPIO8 => USER2_B\nGPIO12 => USER\nNAND_CLE => USER3_R\nNAND_DATA02 => USER3_G\nNAND_ALE => USER3_B\nNAND_DATA07 => START\nNAND_DATA06 => ~EEG_PWDN~\nNAND_DATA03 => ~EEG_RESET~\nSAI3_RXC => EEG_START\nSAI3_RXFS => ~EEG_DRDY~\nSAI5_MCLK => ~AUDIO_PWDN~\nSAI5_RXC => Aquisition\nSAI5_RXD0 => Extra 2\nSAI5_RXD2 => Extra 3
+SPI1 => EEG\nUSB1 => Power?\nSAI2 => Audio\nSD2 => SD card\nJTAG => Header?\nI2C2 => Audio I2C\nI2C3 => Control I2C\nUART1 => Serial console\nPWM1 => USER1_R\nPWM2 => USER1_G\nPWM3 => USER1_B\nPWM4 => Extra 1\nGPIO6 => USER2_R\nGPIO7 => USER2_G\nGPIO8 => USER2_B\nGPIO12 => USER\nNAND_ALE => USER3_R\nNAND_DATA02 => USER3_G\nNAND_CLE => USER3_B\nNAND_DATA07 => START\nNAND_DATA06 => ~EEG_PWDN~\nNAND_DATA03 => ~EEG_RESET~\nSAI3_RXC => EEG_START\nSAI3_RXFS => ~EEG_DRDY~\nSAI5_MCLK => ~AUDIO_PWDN~\nSAI5_RXC => Aquisition\nSAI5_RXD0 => Extra 2\nSAI5_RXD2 => Extra 3
 Text HLabel 5000 1500 0    50   Output ~ 0
 AUDIO_MCLK
 Wire Wire Line
@@ -5194,14 +5194,14 @@ F 3 "~" H 3450 2650 50  0001 C CNN
 	1    3450 2650
 	1    0    0    -1  
 $EndComp
-Text Label 3800 2550 0    50   ~ 0
+Text Label 3200 2550 2    50   ~ 0
 TXD
-Text Label 3800 2650 0    50   ~ 0
+Text Label 3200 2650 2    50   ~ 0
 RXD
 Wire Wire Line
-	3800 2650 3750 2650
+	3200 2650 3250 2650
 Wire Wire Line
-	3750 2550 3800 2550
+	3250 2550 3200 2550
 Wire Wire Line
 	3200 2750 3250 2750
 $Comp
@@ -5218,28 +5218,28 @@ $EndComp
 $Comp
 L power:GND #PWR0129
 U 1 1 627DBA20
-P 3800 2750
-F 0 "#PWR0129" H 3800 2500 50  0001 C CNN
-F 1 "GND" V 3805 2622 50  0000 R CNN
-F 2 "" H 3800 2750 50  0001 C CNN
-F 3 "" H 3800 2750 50  0001 C CNN
-	1    3800 2750
+P 3800 2550
+F 0 "#PWR0129" H 3800 2300 50  0001 C CNN
+F 1 "GND" V 3805 2422 50  0000 R CNN
+F 2 "" H 3800 2550 50  0001 C CNN
+F 3 "" H 3800 2550 50  0001 C CNN
+	1    3800 2550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3800 2750 3750 2750
+	3800 2550 3750 2550
 Text HLabel 7500 5050 2    50   Output ~ 0
 CTRL_SCL
 Text HLabel 7500 4950 2    50   BiDi ~ 0
 CTRL_SDA
-Text HLabel 3150 2650 0    50   Input ~ 0
+Text HLabel 3850 2750 2    50   Input ~ 0
 CTRL_SCL
-Text HLabel 3150 2550 0    50   BiDi ~ 0
+Text HLabel 3850 2650 2    50   BiDi ~ 0
 CTRL_SDA
 Wire Wire Line
-	3150 2650 3250 2650
+	3850 2750 3750 2750
 Wire Wire Line
-	3150 2550 3250 2550
+	3850 2650 3750 2650
 NoConn ~ 10200 3900
 NoConn ~ 10200 4000
 Text Label 2300 4700 2    50   ~ 0
@@ -5303,8 +5303,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 4700 2700 4650
 Connection ~ 2700 4700
-Text Label 2550 4350 0    50   ~ 0
-VDD_3V3
 Wire Wire Line
 	2550 4350 2550 4400
 Wire Wire Line
@@ -5533,4 +5531,15 @@ Wire Wire Line
 	2600 3450 2600 3500
 Wire Wire Line
 	2600 3500 2700 3500
+$Comp
+L power:+3V3 #PWR0137
+U 1 1 6104B8C8
+P 2550 4350
+F 0 "#PWR0137" H 2550 4200 50  0001 C CNN
+F 1 "+3V3" V 2565 4478 50  0000 L CNN
+F 2 "" H 2550 4350 50  0001 C CNN
+F 3 "" H 2550 4350 50  0001 C CNN
+	1    2550 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 12
+Sheet 5 11
 Title "Portiloop"
 Date "2021-06-07"
 Rev "1A"
@@ -214,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 5000 6350 5150
 Text HLabel 6700 4650 2    50   Output ~ 0
-+3V3
++3V3_SD
 Wire Wire Line
 	6200 4650 6200 4700
 Wire Wire Line

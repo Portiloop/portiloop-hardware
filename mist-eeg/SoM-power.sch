@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -2004,32 +2004,6 @@ Wire Wire Line
 Text Notes 4650 1900 0    50   ~ 10
 Regulator
 $Comp
-L Device:R_Small R?
-U 1 1 6137E61B
-P 4300 2150
-AR Path="/609A79EB/60F89803/6137E61B" Ref="R?"  Part="1" 
-AR Path="/609A79EB/61372D3E/6137E61B" Ref="R46"  Part="1" 
-F 0 "R46" H 4241 2196 50  0000 R CNN
-F 1 "4k7" H 4241 2105 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 4300 2150 50  0001 C CNN
-F 3 "~" H 4300 2150 50  0001 C CNN
-	1    4300 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2250 4300 2300
-Wire Wire Line
-	4300 2300 4400 2300
-Wire Wire Line
-	4300 2300 4150 2300
-Connection ~ 4300 2300
-Text HLabel 4250 2000 0    50   Input ~ 0
-+PWR
-Wire Wire Line
-	4250 2000 4300 2000
-Wire Wire Line
-	4300 2000 4300 2050
-$Comp
 L Device:C_Small C?
 U 1 1 6137E628
 P 6800 4700
@@ -2148,4 +2122,6 @@ F 3 "" H 9050 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 4450 7150 4450
+Wire Wire Line
+	4150 2300 4400 2300
 $EndSCHEMATC
