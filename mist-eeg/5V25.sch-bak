@@ -1982,27 +1982,6 @@ Wire Wire Line
 Text Notes 4250 1950 0    50   ~ 10
 Regulator
 $Comp
-L Device:R_Small R30
-U 1 1 60EEA7D5
-P 3900 2200
-F 0 "R30" H 3841 2246 50  0000 R CNN
-F 1 "4k7" H 3841 2155 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 3900 2200 50  0001 C CNN
-F 3 "~" H 3900 2200 50  0001 C CNN
-	1    3900 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 2300 3900 2350
-Wire Wire Line
-	3900 2350 4000 2350
-Text HLabel 3850 2050 0    50   Input ~ 0
-+PWR
-Wire Wire Line
-	3850 2050 3900 2050
-Wire Wire Line
-	3900 2050 3900 2100
-$Comp
 L Device:C_Small C19
 U 1 1 60DD7B7B
 P 6400 4750
@@ -2126,4 +2105,8 @@ F 3 "" H 8650 3100 50  0001 C CNN
 	1    8650 3100
 	1    0    0    -1  
 $EndComp
+Text HLabel 3950 2350 0    50   Input ~ 0
+ENA
+Wire Wire Line
+	3950 2350 4000 2350
 $EndSCHEMATC

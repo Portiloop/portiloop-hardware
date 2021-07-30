@@ -2002,29 +2002,6 @@ Wire Wire Line
 Text Notes 4200 2100 0    50   ~ 10
 Regulator
 $Comp
-L Device:R_Small R?
-U 1 1 6135F719
-P 3850 2350
-AR Path="/609A79EB/60F89803/6135F719" Ref="R?"  Part="1" 
-AR Path="/609A79EB/60FA92B1/6135F719" Ref="R42"  Part="1" 
-F 0 "R42" H 3791 2396 50  0000 R CNN
-F 1 "4k7" H 3791 2305 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 3850 2350 50  0001 C CNN
-F 3 "~" H 3850 2350 50  0001 C CNN
-	1    3850 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 2450 3850 2500
-Wire Wire Line
-	3850 2500 3950 2500
-Text HLabel 3800 2200 0    50   Input ~ 0
-+PWR
-Wire Wire Line
-	3800 2200 3850 2200
-Wire Wire Line
-	3850 2200 3850 2250
-$Comp
 L Device:C_Small C?
 U 1 1 6135F726
 P 6350 4900
@@ -2166,4 +2143,8 @@ F 3 "" H 8600 3250 50  0001 C CNN
 	1    8600 3250
 	1    0    0    -1  
 $EndComp
+Text HLabel 3900 2500 0    50   Input ~ 0
+ENA
+Wire Wire Line
+	3900 2500 3950 2500
 $EndSCHEMATC

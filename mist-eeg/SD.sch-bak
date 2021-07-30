@@ -70,7 +70,7 @@ Wire Wire Line
 	6000 5100 5950 5100
 Text HLabel 2300 5000 0    50   Output ~ 0
 ~CD~
-Text Label 8800 4900 0    50   ~ 0
+Text Label 9250 5400 0    50   ~ 0
 +PWR
 Text Label 4200 3850 0    50   ~ 0
 +PWR
@@ -177,18 +177,18 @@ SD Card module
 Wire Notes Line
 	7050 6750 7050 500 
 Wire Wire Line
-	8700 3950 8700 4000
+	8700 4400 8700 4450
 $Comp
 L Switch:SW_Push_Open SW3
 U 1 1 60E9F426
-P 8700 4200
+P 9200 5150
 AR Path="/60A0E6BC/60E9F426" Ref="SW3"  Part="1" 
 AR Path="/60A7CCD6/60E9F426" Ref="SW?"  Part="1" 
-F 0 "SW3" V 8654 4278 50  0000 L CNN
-F 1 "SD_RST" V 8745 4278 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 8700 4400 50  0001 C CNN
-F 3 "~" H 8700 4400 50  0001 C CNN
-	1    8700 4200
+F 0 "SW3" V 9154 5228 50  0000 L CNN
+F 1 "SD_RST" V 9245 5228 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 9200 5350 50  0001 C CNN
+F 3 "~" H 9200 5350 50  0001 C CNN
+	1    9200 5150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -273,7 +273,7 @@ F 3 "" H 2400 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 5300 2450 5300
-Text HLabel 8700 3950 1    50   Input ~ 0
+Text HLabel 8700 4400 1    50   Input ~ 0
 +PWR_IN
 Text HLabel 8000 5050 0    50   Input ~ 0
 ~RST~
@@ -450,8 +450,6 @@ Wire Wire Line
 Connection ~ 2800 4200
 Wire Wire Line
 	8700 4850 8700 4900
-Wire Wire Line
-	8700 4450 8700 4400
 $Comp
 L Device:Q_NMOS_DGS Q3
 U 1 1 61243C8E
@@ -480,8 +478,6 @@ Wire Wire Line
 	8350 5300 8350 5250
 Wire Wire Line
 	8350 4650 8400 4650
-Wire Wire Line
-	8800 4900 8700 4900
 Wire Wire Line
 	8350 4650 8350 4850
 Text HLabel 8350 4350 1    50   Input ~ 0
@@ -556,4 +552,12 @@ F 3 "~" H 6100 5100 50  0001 C CNN
 	1    6100 5100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9250 5400 9200 5400
+Wire Wire Line
+	9200 5400 9200 5350
+Wire Wire Line
+	9200 4900 9200 4950
+Wire Wire Line
+	8700 4900 9200 4900
 $EndSCHEMATC
