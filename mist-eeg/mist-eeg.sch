@@ -369,7 +369,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1250 2500 1250
 Text Notes 7600 6500 0    79   ~ 16
-State:\n - Preliminary schematics: done\n - Layout: done\n - Revised schematic: done\n - Schematic validation: done\n - Layout validation: done\n - BOM optimization: not done\n - Physical testing: to do
+State:\n - Preliminary schematics: done\n - Layout: done\n - Revised schematic: done\n - Schematic validation: done\n - Layout validation: done\n - BOM optimization: done\n - Physical testing: to do
 Text Notes 8900 1300 0    79   ~ 16
 PS I2C addresses:\n - 0x5C: HW monitor
 $Comp
