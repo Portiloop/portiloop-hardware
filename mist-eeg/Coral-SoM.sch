@@ -69,9 +69,9 @@ Text HLabel 5500 1700 2    50   Input ~ 0
 ~EEG_DRDY~
 Text HLabel 5000 1800 0    50   Output ~ 0
 AUDIO_BCLK
-Text HLabel 5000 1600 0    50   Output ~ 0
-AUDIO_LRCLK
 Text HLabel 5000 1700 0    50   Output ~ 0
+AUDIO_LRCLK
+Text HLabel 5000 1600 0    50   Output ~ 0
 AUDIO_SDATA
 Text HLabel 5000 3400 0    50   Output ~ 0
 ~AUDIO_PWDN~
