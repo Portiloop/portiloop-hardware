@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 11
+Sheet 2 8
 Title "Portiloop"
-Date "2021-08-03"
+Date "2021-08-05"
 Rev "1D"
 Comp "MIST Lab"
 Comment1 "Designed by Xavier L'Heureux"
@@ -24,7 +24,7 @@ L Connector:Screw_Terminal_01x02 J1
 U 1 1 60BBE84B
 P 5750 2550
 F 0 "J1" H 5668 2225 50  0000 C CNN
-F 1 "Power_5V-14V" H 5668 2316 50  0000 C CNN
+F 1 "Power_6.5V-14V" H 5668 2316 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5750 2550 50  0001 C CNN
 F 3 "~" H 5750 2550 50  0001 C CNN
 	1    5750 2550
@@ -1989,30 +1989,22 @@ F 3 "~" H 6200 2450 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	4550 500  4550 8000
-Text Notes 1750 5600 0    50   ~ 10
-Sequencing
-Text Notes 1750 6600 0    50   ~ 0
-ADC supplies:\n 1 - 5V25 (intermediate)\n 2 - 5V & 1V8 (clean)\n\nAudio:\n 1 - 1.8V (clean)\n 2 - 3.3V\n\nGlobal:\n 1 - 5.25V (Intermediate)\n 2 - 1.8V (Clean), 5V (Clean)\n 3 - 3.3V, 5V (Board power)
 $Sheet
 S 6450 4900 800  500 
 U 60F9F7DC
 F0 "audio-power" 50
 F1 "audio-power.sch" 50
 F2 "ENA" I L 6450 5150 50 
-F3 "+5V5" I L 6450 5000 50 
-F4 "+1V8_ANA" O R 7250 5100 50 
-F5 "+5V0_ANA" O R 7250 5000 50 
-F6 "PG_1V8" O R 7250 5200 50 
-F7 "PG_5V0" O R 7250 5300 50 
+F3 "+1V8_ANA" O R 7250 5100 50 
+F4 "+5V0_ANA" O R 7250 5000 50 
+F5 "PG_1V8" O R 7250 5200 50 
+F6 "PG_5V0" O R 7250 5300 50 
+F7 "+PWR" I L 6450 5000 50 
 $EndSheet
-Text Label 6400 5000 2    50   ~ 0
-+5V25
 Wire Wire Line
 	7250 5100 7300 5100
 Wire Wire Line
 	7300 5000 7250 5000
-Wire Wire Line
-	6400 5000 6450 5000
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 6103C21C
@@ -2038,10 +2030,6 @@ Wire Wire Line
 Connection ~ 2200 1000
 Wire Wire Line
 	3100 1000 3350 1000
-Text Label 1150 1150 0    50   ~ 0
-+5V25
-Text Label 2150 1000 2    50   ~ 0
-+5V25
 Wire Wire Line
 	5950 2450 6100 2450
 $Comp
@@ -2154,46 +2142,11 @@ F 3 "" H 1900 1700 50  0001 C CNN
 	1    1900 1700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7350 5200 7350 5250
-Wire Wire Line
-	7250 5300 7350 5300
-Wire Wire Line
-	7250 5200 7350 5200
-Wire Wire Line
-	7400 5250 7350 5250
-Connection ~ 7350 5250
-Wire Wire Line
-	7350 5250 7350 5300
-Text Label 7700 5350 0    50   ~ 0
-+PWR
-$Comp
-L Device:R_Small R8
-U 1 1 612D9364
-P 7550 5350
-F 0 "R8" V 7654 5350 50  0000 C CNN
-F 1 "4k7" V 7745 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 7550 5350 50  0001 C CNN
-F 3 "~" H 7550 5350 50  0001 C CNN
-	1    7550 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 5350 7650 5350
-Text Label 7450 5250 0    50   ~ 0
-STAGE_2
-Wire Wire Line
-	7450 5250 7400 5250
-Connection ~ 7400 5250
-Wire Wire Line
-	7400 5350 7450 5350
-Wire Wire Line
-	7400 5350 7400 5250
-Text HLabel 7300 5800 2    50   Output ~ 0
+Text HLabel 7350 5900 2    50   Output ~ 0
 +5V_SOM
 Wire Wire Line
-	7300 5800 7250 5800
-Text Notes 1750 4100 0    50   ~ 10
+	7350 5900 7300 5900
+Text Notes 1750 4350 0    50   ~ 10
 Rails
 $Comp
 L Device:LED D2
@@ -2207,10 +2160,10 @@ F 3 "~" H 9200 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR013
+L power:GND #PWR014
 U 1 1 612F0DA2
 P 9200 6200
-F 0 "#PWR013" H 9200 5950 50  0001 C CNN
+F 0 "#PWR014" H 9200 5950 50  0001 C CNN
 F 1 "GND" H 9205 6027 50  0000 C CNN
 F 2 "" H 9200 6200 50  0001 C CNN
 F 3 "" H 9200 6200 50  0001 C CNN
@@ -2239,8 +2192,8 @@ L Device:R_Small R?
 U 1 1 613287EB
 P 9200 5250
 AR Path="/60D119DF/613287EB" Ref="R?"  Part="1" 
-AR Path="/609A79EB/613287EB" Ref="R10"  Part="1" 
-F 0 "R10" V 9304 5250 50  0000 C CNN
+AR Path="/609A79EB/613287EB" Ref="R6"  Part="1" 
+F 0 "R6" V 9304 5250 50  0000 C CNN
 F 1 "1k" V 9395 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9200 5250 50  0001 C CNN
 F 3 "~" H 9200 5250 50  0001 C CNN
@@ -2269,10 +2222,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 2600 6000 2550
 $Comp
-L power:+3V3 #PWR012
+L power:+3V3 #PWR013
 U 1 1 61109884
 P 9200 5100
-F 0 "#PWR012" H 9200 4950 50  0001 C CNN
+F 0 "#PWR013" H 9200 4950 50  0001 C CNN
 F 1 "+3V3" H 9215 5273 50  0000 C CNN
 F 2 "" H 9200 5100 50  0001 C CNN
 F 3 "" H 9200 5100 50  0001 C CNN
@@ -2300,168 +2253,100 @@ Wire Wire Line
 Wire Wire Line
 	9200 5700 9200 5750
 Wire Wire Line
-	6300 5300 6350 5300
-Wire Wire Line
-	6050 5300 6100 5300
-$Comp
-L Device:R_Small R5
-U 1 1 61393215
-P 6200 5300
-F 0 "R5" V 6304 5300 50  0000 C CNN
-F 1 "4k7" V 6395 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 6200 5300 50  0001 C CNN
-F 3 "~" H 6200 5300 50  0001 C CNN
-	1    6200 5300
-	0    1    1    0   
-$EndComp
-Text Label 6050 5300 2    50   ~ 0
-+5V25
-Wire Wire Line
-	6350 5300 6350 5150
-Wire Wire Line
-	6300 5150 6350 5150
-Text Label 6300 5150 2    50   ~ 0
-STAGE_1
-Connection ~ 6350 5150
-Wire Wire Line
-	6350 5150 6450 5150
-Wire Wire Line
-	7300 4450 7250 4450
-Text HLabel 7300 4450 2    50   Output ~ 0
+	7300 4050 7250 4050
+Text HLabel 7300 4050 2    50   Output ~ 0
 +3V3_SD
-Text Label 7300 3900 0    50   ~ 0
-+5V25
 Wire Wire Line
-	7250 3900 7300 3900
-Wire Wire Line
-	6400 5900 6450 5900
-Text Label 6400 5900 2    50   ~ 0
-STAGE_2
-Wire Wire Line
-	6400 5800 6450 5800
-Text Label 6400 5800 2    50   ~ 0
+	6450 5900 6500 5900
+Text Label 6450 5900 2    50   ~ 0
 +PWR
-Text Label 7300 5900 0    50   ~ 0
-PG
+Text Notes 1750 5350 0    50   ~ 0
+3V3 V @ 0.9 A (TPS63070):\n - SD card, 2.88 W max\n\n5V0 (clean) @ 50 mA:\n - ADS1299 Analog supply\n - LTC2947 supply\n\n1V8 (clean) @ 10 mA:\n - ADAU1777 Analog supply\n\n5V @ 1.2 A:\n - SoM core voltage
 Wire Wire Line
-	7300 5900 7250 5900
-$Sheet
-S 6450 5700 800  300 
-U 61372D3E
-F0 "SoM-power" 50
-F1 "SoM-power.sch" 50
-F2 "ENA" I L 6450 5900 50 
-F3 "+PWR" I L 6450 5800 50 
-F4 "+5V" O R 7250 5800 50 
-F5 "OK" O R 7250 5900 50 
-$EndSheet
-Text Label 8800 5950 2    50   ~ 0
-PG
+	6400 4050 6450 4050
+Text Label 6400 4050 2    50   ~ 0
++PWR
+$Comp
+L Regulator_Switching:TSR_1-2433 U2
+U 1 1 61160C95
+P 6850 4150
+F 0 "U2" H 6850 4517 50  0000 C CNN
+F 1 "TSR_1-2433" H 6850 4426 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 6850 4000 50  0001 L CIN
+F 3 "http://www.tracopower.com/products/tsr1.pdf" H 6850 4150 50  0001 C CNN
+	1    6850 4150
+	1    0    0    -1  
+$EndComp
+Text Label 8850 5950 2    50   ~ 0
++PWR
 Wire Wire Line
 	8850 5950 8900 5950
-Wire Wire Line
-	8800 5950 8850 5950
-Connection ~ 8850 5950
-Wire Wire Line
-	8850 5950 8850 5900
 $Comp
-L power:+3V3 #PWR011
-U 1 1 611097F5
-P 8850 5650
-F 0 "#PWR011" H 8850 5500 50  0001 C CNN
-F 1 "+3V3" H 8865 5823 50  0000 C CNN
-F 2 "" H 8850 5650 50  0001 C CNN
-F 3 "" H 8850 5650 50  0001 C CNN
-	1    8850 5650
+L power:GND #PWR011
+U 1 1 6116735D
+P 6850 4400
+F 0 "#PWR011" H 6850 4150 50  0001 C CNN
+F 1 "GND" H 6855 4227 50  0000 C CNN
+F 2 "" H 6850 4400 50  0001 C CNN
+F 3 "" H 6850 4400 50  0001 C CNN
+	1    6850 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 5650 8850 5700
+	6850 4400 6850 4350
+Wire Wire Line
+	6350 5150 6450 5150
 $Comp
-L Device:R_Small R9
-U 1 1 6131A811
-P 8850 5800
-F 0 "R9" H 8791 5754 50  0000 R CNN
-F 1 "4k7" H 8791 5845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 8850 5800 50  0001 C CNN
-F 3 "~" H 8850 5800 50  0001 C CNN
-	1    8850 5800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7300 4050 7250 4050
-Text Label 7300 4050 0    50   ~ 0
-STAGE_1
-Text Label 7300 4600 0    50   ~ 0
-STAGE_1
-Wire Wire Line
-	7300 4600 7250 4600
-Text Notes 1750 5350 0    50   ~ 0
-3V3 V @ 0.9 A (TPS63070):\n - SD card, 2.88 W max\n\n5V0 (clean) @ 50 mA:\n - ADS1299 Analog supply\n - LTC2947 supply\n\n1V8 (clean) @ 10 mA:\n - ADAU1777 Analog supply\n\n5V25 (intermediate) @ 100 mA:\n - clean voltage buck-boost\n\n5V @ 1.2 A:\n - SoM core voltage
-$Sheet
-S 6450 3800 800  350 
-U 60F89803
-F0 "5V25" 50
-F1 "5V25.sch" 50
-F2 "OK" O R 7250 4050 50 
-F3 "+PWR" I L 6450 3900 50 
-F4 "+5V25" O R 7250 3900 50 
-F5 "ENA" I L 6450 4000 50 
-$EndSheet
-Text Label 6400 3900 2    50   ~ 0
-+PWR
-Wire Wire Line
-	6400 3900 6450 3900
-$Comp
-L Device:R_Small R?
-U 1 1 610D8759
-P 6300 4000
-AR Path="/609A79EB/60F89803/610D8759" Ref="R?"  Part="1" 
-AR Path="/609A79EB/610D8759" Ref="R6"  Part="1" 
-F 0 "R6" V 6404 4000 50  0000 C CNN
-F 1 "4k7" V 6495 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 6300 4000 50  0001 C CNN
-F 3 "~" H 6300 4000 50  0001 C CNN
-	1    6300 4000
+L Device:R_Small R5
+U 1 1 61393215
+P 6250 5150
+F 0 "R5" V 6354 5150 50  0000 C CNN
+F 1 "4k7" V 6445 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6250 5150 50  0001 C CNN
+F 3 "~" H 6250 5150 50  0001 C CNN
+	1    6250 5150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6150 4000 6200 4000
-Wire Wire Line
-	6400 4000 6450 4000
-Text Label 6150 4000 2    50   ~ 0
+Text Label 6100 5150 2    50   ~ 0
 +PWR
 Wire Wire Line
-	6150 4550 6200 4550
+	6100 5150 6150 5150
+Text Label 6400 5000 2    50   ~ 0
++PWR
+Wire Wire Line
+	6450 5000 6400 5000
 $Comp
-L Device:R_Small R?
-U 1 1 610E9FA4
-P 6300 4550
-AR Path="/609A79EB/60F89803/610E9FA4" Ref="R?"  Part="1" 
-AR Path="/609A79EB/610E9FA4" Ref="R7"  Part="1" 
-F 0 "R7" V 6404 4550 50  0000 C CNN
-F 1 "4k7" V 6495 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 6300 4550 50  0001 C CNN
-F 3 "~" H 6300 4550 50  0001 C CNN
-	1    6300 4550
-	0    1    1    0   
+L Regulator_Switching:TSR_1-2450 U3
+U 1 1 61179119
+P 6900 6000
+F 0 "U3" H 6900 6367 50  0000 C CNN
+F 1 "TSR_2-2450" H 6900 6276 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 6900 5850 50  0001 L CIN
+F 3 "http://www.tracopower.com/products/tsr1.pdf" H 6900 6000 50  0001 C CNN
+	1    6900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 61179C76
+P 6900 6250
+F 0 "#PWR012" H 6900 6000 50  0001 C CNN
+F 1 "GND" H 6905 6077 50  0000 C CNN
+F 2 "" H 6900 6250 50  0001 C CNN
+F 3 "" H 6900 6250 50  0001 C CNN
+	1    6900 6250
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 4550 6450 4550
-Text Label 6150 4550 2    50   ~ 0
-STAGE_2
+	6900 6250 6900 6200
+NoConn ~ 7300 5200
+NoConn ~ 7300 5300
 Wire Wire Line
-	6400 4450 6450 4450
-Text Label 6400 4450 2    50   ~ 0
-+PWR
-$Sheet
-S 6450 4350 800  350 
-U 60FA92B1
-F0 "SD-power" 50
-F1 "SD-power.sch" 50
-F2 "OK" O R 7250 4600 50 
-F3 "+PWR" I L 6450 4450 50 
-F4 "+3V3_SD" O R 7250 4450 50 
-F5 "ENA" I L 6450 4550 50 
-$EndSheet
+	7300 5300 7250 5300
+Wire Wire Line
+	7300 5200 7250 5200
+Text HLabel 2150 1000 0    50   Input ~ 0
++5V_SOM
+Text HLabel 1150 1150 2    50   Input ~ 0
++5V_SOM
 $EndSCHEMATC

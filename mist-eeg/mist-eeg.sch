@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 11
+Sheet 1 8
 Title "Portiloop"
-Date "2021-08-03"
-Rev "1D"
+Date "2021-08-05"
+Rev "1E"
 Comp "MIST Lab"
 Comment1 "Designed by Xavier L'Heureux"
 Comment2 ""
