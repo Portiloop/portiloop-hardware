@@ -5,18 +5,14 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 11
 Title "Portiloop"
-Date "2021-06-07"
-Rev "1A"
+Date "2021-08-03"
+Rev "1D"
 Comp "MIST Lab"
 Comment1 "Designed by Xavier L'Heureux"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7300 4450 2    50   Output ~ 0
-+3V3_SD
-Text Notes 1750 5350 0    50   ~ 0
-3V3 V @ 1.75 A (TPS63070):\n - SD card, 2.88 W max\n\n5V0 (clean) @ 50 mA:\n - ADS1299 Analog supply\n - LTC2947 supply\n\n1V8 (clean) @ 10 mA:\n - ADAU1777 Analog supply\n\n5V25 (intermediate) @ 100 mA:\n - clean voltage buck-boost\n\n5V @ 1.2 A:\n - SoM core voltage
 Text HLabel 7300 5000 2    50   Output ~ 0
 +5V0_ANA
 Text HLabel 7300 5100 2    50   Output ~ 0
@@ -1931,10 +1927,10 @@ B4 DB ED E1 4B 28 21 F3 60 15 64 AB E8 56 E7 B8 44 0F 99 01 15 C7 24 7E 55 29 F2
 EndData
 $EndBitmap
 $Comp
-L Device:R_Small R2
+L Device:R_Small R3
 U 1 1 60C33D53
 P 5200 1250
-F 0 "R2" V 5396 1250 50  0000 C CNN
+F 0 "R3" V 5396 1250 50  0000 C CNN
 F 1 "0R" V 5305 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 1250 50  0001 C CNN
 F 3 "~" H 5200 1250 50  0001 C CNN
@@ -1942,10 +1938,10 @@ F 3 "~" H 5200 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R3
+L Device:R_Small R4
 U 1 1 60C33E49
 P 5200 1350
-F 0 "R3" V 5096 1350 50  0000 C CNN
+F 0 "R4" V 5096 1350 50  0000 C CNN
 F 1 "0R" V 5005 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 1350 50  0001 C CNN
 F 3 "~" H 5200 1350 50  0001 C CNN
@@ -1998,20 +1994,6 @@ Sequencing
 Text Notes 1750 6600 0    50   ~ 0
 ADC supplies:\n 1 - 5V25 (intermediate)\n 2 - 5V & 1V8 (clean)\n\nAudio:\n 1 - 1.8V (clean)\n 2 - 3.3V\n\nGlobal:\n 1 - 5.25V (Intermediate)\n 2 - 1.8V (Clean), 5V (Clean)\n 3 - 3.3V, 5V (Board power)
 $Sheet
-S 6450 3800 800  350 
-U 60F89803
-F0 "5V25" 50
-F1 "5V25.sch" 50
-F2 "OK" O R 7250 4050 50 
-F3 "+PWR" I L 6450 3900 50 
-F4 "+5V25" O R 7250 3900 50 
-F5 "ENA" I L 6450 4000 50 
-$EndSheet
-Text Label 6400 3900 2    50   ~ 0
-+PWR
-Text Label 7300 3900 0    50   ~ 0
-+5V25
-$Sheet
 S 6450 4900 800  500 
 U 60F9F7DC
 F0 "audio-power" 50
@@ -2025,40 +2007,12 @@ F7 "PG_5V0" O R 7250 5300 50
 $EndSheet
 Text Label 6400 5000 2    50   ~ 0
 +5V25
-$Sheet
-S 6450 4350 800  350 
-U 60FA92B1
-F0 "SD-power" 50
-F1 "SD-power.sch" 50
-F2 "OK" O R 7250 4600 50 
-F3 "+PWR" I L 6450 4450 50 
-F4 "+3V3_SD" O R 7250 4450 50 
-F5 "ENA" I L 6450 4550 50 
-$EndSheet
-Text Label 6400 4450 2    50   ~ 0
-+PWR
-Wire Wire Line
-	7300 4450 7250 4450
-Wire Wire Line
-	6400 4450 6450 4450
-Wire Wire Line
-	7300 4600 7250 4600
 Wire Wire Line
 	7250 5100 7300 5100
 Wire Wire Line
 	7300 5000 7250 5000
 Wire Wire Line
 	6400 5000 6450 5000
-Text Label 7300 4600 0    50   ~ 0
-STAGE_1
-Text Label 7300 4050 0    50   ~ 0
-STAGE_1
-Wire Wire Line
-	7300 4050 7250 4050
-Wire Wire Line
-	7250 3900 7300 3900
-Wire Wire Line
-	6400 3900 6450 3900
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 6103C21C
@@ -2091,10 +2045,10 @@ Text Label 2150 1000 2    50   ~ 0
 Wire Wire Line
 	5950 2450 6100 2450
 $Comp
-L power:GND #PWR06
+L power:GND #PWR05
 U 1 1 610A7571
 P 3700 1800
-F 0 "#PWR06" H 3700 1550 50  0001 C CNN
+F 0 "#PWR05" H 3700 1550 50  0001 C CNN
 F 1 "GND" V 3705 1672 50  0000 R CNN
 F 2 "" H 3700 1800 50  0001 C CNN
 F 3 "" H 3700 1800 50  0001 C CNN
@@ -2102,10 +2056,10 @@ F 3 "" H 3700 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L power:GND #PWR01
 U 1 1 610A7A24
 P 1100 1550
-F 0 "#PWR02" H 1100 1300 50  0001 C CNN
+F 0 "#PWR01" H 1100 1300 50  0001 C CNN
 F 1 "GND" H 1105 1377 50  0000 C CNN
 F 2 "" H 1100 1550 50  0001 C CNN
 F 3 "" H 1100 1550 50  0001 C CNN
@@ -2113,10 +2067,10 @@ F 3 "" H 1100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L power:GND #PWR06
 U 1 1 610A7E92
 P 3700 2100
-F 0 "#PWR07" H 3700 1850 50  0001 C CNN
+F 0 "#PWR06" H 3700 1850 50  0001 C CNN
 F 1 "GND" V 3705 1972 50  0000 R CNN
 F 2 "" H 3700 2100 50  0001 C CNN
 F 3 "" H 3700 2100 50  0001 C CNN
@@ -2124,10 +2078,10 @@ F 3 "" H 3700 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR03
 U 1 1 610A86B9
 P 3150 1100
-F 0 "#PWR04" H 3150 850 50  0001 C CNN
+F 0 "#PWR03" H 3150 850 50  0001 C CNN
 F 1 "GND" V 3155 972 50  0000 R CNN
 F 2 "" H 3150 1100 50  0001 C CNN
 F 3 "" H 3150 1100 50  0001 C CNN
@@ -2135,10 +2089,10 @@ F 3 "" H 3150 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR010
+L power:GND #PWR09
 U 1 1 610A8DE0
 P 6000 2600
-F 0 "#PWR010" H 6000 2350 50  0001 C CNN
+F 0 "#PWR09" H 6000 2350 50  0001 C CNN
 F 1 "GND" H 6005 2427 50  0000 C CNN
 F 2 "" H 6000 2600 50  0001 C CNN
 F 3 "" H 6000 2600 50  0001 C CNN
@@ -2146,10 +2100,10 @@ F 3 "" H 6000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L power:GND #PWR010
 U 1 1 610A9283
 P 6400 2800
-F 0 "#PWR011" H 6400 2550 50  0001 C CNN
+F 0 "#PWR010" H 6400 2550 50  0001 C CNN
 F 1 "GND" H 6405 2627 50  0000 C CNN
 F 2 "" H 6400 2800 50  0001 C CNN
 F 3 "" H 6400 2800 50  0001 C CNN
@@ -2157,10 +2111,10 @@ F 3 "" H 6400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L power:GND #PWR08
 U 1 1 610A9BEC
 P 5400 1350
-F 0 "#PWR09" H 5400 1100 50  0001 C CNN
+F 0 "#PWR08" H 5400 1100 50  0001 C CNN
 F 1 "GND" V 5405 1222 50  0000 R CNN
 F 2 "" H 5400 1350 50  0001 C CNN
 F 3 "" H 5400 1350 50  0001 C CNN
@@ -2168,10 +2122,10 @@ F 3 "" H 5400 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR07
 U 1 1 610AA0D7
 P 5400 1250
-F 0 "#PWR08" H 5400 1000 50  0001 C CNN
+F 0 "#PWR07" H 5400 1000 50  0001 C CNN
 F 1 "GND" V 5405 1122 50  0000 R CNN
 F 2 "" H 5400 1250 50  0001 C CNN
 F 3 "" H 5400 1250 50  0001 C CNN
@@ -2179,10 +2133,10 @@ F 3 "" H 5400 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR05
+L power:+3V3 #PWR04
 U 1 1 61173A73
 P 3150 1200
-F 0 "#PWR05" H 3150 1050 50  0001 C CNN
+F 0 "#PWR04" H 3150 1050 50  0001 C CNN
 F 1 "+3V3" V 3165 1328 50  0000 L CNN
 F 2 "" H 3150 1200 50  0001 C CNN
 F 3 "" H 3150 1200 50  0001 C CNN
@@ -2190,10 +2144,10 @@ F 3 "" H 3150 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR02
 U 1 1 61174AC0
 P 1900 1700
-F 0 "#PWR03" H 1900 1450 50  0001 C CNN
+F 0 "#PWR02" H 1900 1450 50  0001 C CNN
 F 1 "GND" V 1905 1572 50  0000 R CNN
 F 2 "" H 1900 1700 50  0001 C CNN
 F 3 "" H 1900 1700 50  0001 C CNN
@@ -2214,10 +2168,10 @@ Wire Wire Line
 Text Label 7700 5350 0    50   ~ 0
 +PWR
 $Comp
-L Device:R_Small R5
+L Device:R_Small R8
 U 1 1 612D9364
 P 7550 5350
-F 0 "R5" V 7654 5350 50  0000 C CNN
+F 0 "R8" V 7654 5350 50  0000 C CNN
 F 1 "4k7" V 7745 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 7550 5350 50  0001 C CNN
 F 3 "~" H 7550 5350 50  0001 C CNN
@@ -2235,68 +2189,12 @@ Wire Wire Line
 	7400 5350 7450 5350
 Wire Wire Line
 	7400 5350 7400 5250
-$Sheet
-S 6450 5700 800  300 
-U 61372D3E
-F0 "SoM-power" 50
-F1 "SoM-power.sch" 50
-F2 "ENA" I L 6450 5900 50 
-F3 "+PWR" I L 6450 5800 50 
-F4 "+5V" O R 7250 5800 50 
-F5 "OK" O R 7250 5900 50 
-$EndSheet
-Text Label 6400 5800 2    50   ~ 0
-+PWR
-Wire Wire Line
-	6400 5800 6450 5800
-Text Label 6400 5900 2    50   ~ 0
-STAGE_2
-Wire Wire Line
-	6400 5900 6450 5900
-Text Label 6300 5150 2    50   ~ 0
-STAGE_1
-Wire Wire Line
-	6300 5150 6350 5150
-Text Label 6050 5300 2    50   ~ 0
-+5V25
-$Comp
-L Device:R_Small R4
-U 1 1 61393215
-P 6200 5300
-F 0 "R4" V 6304 5300 50  0000 C CNN
-F 1 "4k7" V 6395 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 6200 5300 50  0001 C CNN
-F 3 "~" H 6200 5300 50  0001 C CNN
-	1    6200 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6050 5300 6100 5300
-Wire Wire Line
-	6300 5300 6350 5300
-Wire Wire Line
-	6350 5300 6350 5150
-Connection ~ 6350 5150
-Wire Wire Line
-	6350 5150 6450 5150
-Wire Wire Line
-	7300 5900 7250 5900
 Text HLabel 7300 5800 2    50   Output ~ 0
 +5V_SOM
 Wire Wire Line
 	7300 5800 7250 5800
 Text Notes 1750 4100 0    50   ~ 10
 Rails
-Text Label 8800 4200 2    50   ~ 0
-STAGE_2
-Text HLabel 8850 4200 2    50   Output ~ 0
-AUDIO_OK
-Wire Wire Line
-	8850 4200 8800 4200
-Text Label 7300 5900 0    50   ~ 0
-PG
-Text Label 8800 5950 2    50   ~ 0
-PG
 $Comp
 L Device:LED D2
 U 1 1 612ED13D
@@ -2337,32 +2235,12 @@ Wire Wire Line
 Wire Wire Line
 	9200 5100 9200 5150
 $Comp
-L Device:R_Small R6
-U 1 1 6131A811
-P 8850 5800
-F 0 "R6" H 8791 5754 50  0000 R CNN
-F 1 "4k7" H 8791 5845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 8850 5800 50  0001 C CNN
-F 3 "~" H 8850 5800 50  0001 C CNN
-	1    8850 5800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 5950 8850 5950
-Wire Wire Line
-	8850 5950 8850 5900
-Connection ~ 8850 5950
-Wire Wire Line
-	8850 5950 8900 5950
-Wire Wire Line
-	8850 5650 8850 5700
-$Comp
 L Device:R_Small R?
 U 1 1 613287EB
 P 9200 5250
 AR Path="/60D119DF/613287EB" Ref="R?"  Part="1" 
-AR Path="/609A79EB/613287EB" Ref="R7"  Part="1" 
-F 0 "R7" V 9304 5250 50  0000 C CNN
+AR Path="/609A79EB/613287EB" Ref="R10"  Part="1" 
+F 0 "R10" V 9304 5250 50  0000 C CNN
 F 1 "1k" V 9395 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9200 5250 50  0001 C CNN
 F 3 "~" H 9200 5250 50  0001 C CNN
@@ -2374,10 +2252,10 @@ Text Label 2100 2900 2    50   ~ 0
 Text Label 2500 2900 0    50   ~ 0
 +PWR
 $Comp
-L Device:R_Small R8
+L Device:R_Small R2
 U 1 1 612F92EA
 P 2300 2900
-F 0 "R8" V 2104 2900 50  0000 C CNN
+F 0 "R2" V 2104 2900 50  0000 C CNN
 F 1 "DNF" V 2195 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2300 2900 50  0001 C CNN
 F 3 "~" H 2300 2900 50  0001 C CNN
@@ -2391,21 +2269,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 2600 6000 2550
 $Comp
-L power:+3V3 #PWR0139
-U 1 1 611097F5
-P 8850 5650
-F 0 "#PWR0139" H 8850 5500 50  0001 C CNN
-F 1 "+3V3" H 8865 5823 50  0000 C CNN
-F 2 "" H 8850 5650 50  0001 C CNN
-F 3 "" H 8850 5650 50  0001 C CNN
-	1    8850 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0140
+L power:+3V3 #PWR012
 U 1 1 61109884
 P 9200 5100
-F 0 "#PWR0140" H 9200 4950 50  0001 C CNN
+F 0 "#PWR012" H 9200 4950 50  0001 C CNN
 F 1 "+3V3" H 9215 5273 50  0000 C CNN
 F 2 "" H 9200 5100 50  0001 C CNN
 F 3 "" H 9200 5100 50  0001 C CNN
@@ -2432,17 +2299,126 @@ Wire Wire Line
 	6400 2450 6550 2450
 Wire Wire Line
 	9200 5700 9200 5750
-Text Label 6150 4550 2    50   ~ 0
+Wire Wire Line
+	6300 5300 6350 5300
+Wire Wire Line
+	6050 5300 6100 5300
+$Comp
+L Device:R_Small R5
+U 1 1 61393215
+P 6200 5300
+F 0 "R5" V 6304 5300 50  0000 C CNN
+F 1 "4k7" V 6395 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 6200 5300 50  0001 C CNN
+F 3 "~" H 6200 5300 50  0001 C CNN
+	1    6200 5300
+	0    1    1    0   
+$EndComp
+Text Label 6050 5300 2    50   ~ 0
++5V25
+Wire Wire Line
+	6350 5300 6350 5150
+Wire Wire Line
+	6300 5150 6350 5150
+Text Label 6300 5150 2    50   ~ 0
+STAGE_1
+Connection ~ 6350 5150
+Wire Wire Line
+	6350 5150 6450 5150
+Wire Wire Line
+	7300 4450 7250 4450
+Text HLabel 7300 4450 2    50   Output ~ 0
++3V3_SD
+Text Label 7300 3900 0    50   ~ 0
++5V25
+Wire Wire Line
+	7250 3900 7300 3900
+Wire Wire Line
+	6400 5900 6450 5900
+Text Label 6400 5900 2    50   ~ 0
 STAGE_2
 Wire Wire Line
-	6400 4550 6450 4550
+	6400 5800 6450 5800
+Text Label 6400 5800 2    50   ~ 0
++PWR
+Text Label 7300 5900 0    50   ~ 0
+PG
+Wire Wire Line
+	7300 5900 7250 5900
+$Sheet
+S 6450 5700 800  300 
+U 61372D3E
+F0 "SoM-power" 50
+F1 "SoM-power.sch" 50
+F2 "ENA" I L 6450 5900 50 
+F3 "+PWR" I L 6450 5800 50 
+F4 "+5V" O R 7250 5800 50 
+F5 "OK" O R 7250 5900 50 
+$EndSheet
+Text Label 8800 5950 2    50   ~ 0
+PG
+Wire Wire Line
+	8850 5950 8900 5950
+Wire Wire Line
+	8800 5950 8850 5950
+Connection ~ 8850 5950
+Wire Wire Line
+	8850 5950 8850 5900
+$Comp
+L power:+3V3 #PWR011
+U 1 1 611097F5
+P 8850 5650
+F 0 "#PWR011" H 8850 5500 50  0001 C CNN
+F 1 "+3V3" H 8865 5823 50  0000 C CNN
+F 2 "" H 8850 5650 50  0001 C CNN
+F 3 "" H 8850 5650 50  0001 C CNN
+	1    8850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5650 8850 5700
+$Comp
+L Device:R_Small R9
+U 1 1 6131A811
+P 8850 5800
+F 0 "R9" H 8791 5754 50  0000 R CNN
+F 1 "4k7" H 8791 5845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 8850 5800 50  0001 C CNN
+F 3 "~" H 8850 5800 50  0001 C CNN
+	1    8850 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 4050 7250 4050
+Text Label 7300 4050 0    50   ~ 0
+STAGE_1
+Text Label 7300 4600 0    50   ~ 0
+STAGE_1
+Wire Wire Line
+	7300 4600 7250 4600
+Text Notes 1750 5350 0    50   ~ 0
+3V3 V @ 0.9 A (TPS63070):\n - SD card, 2.88 W max\n\n5V0 (clean) @ 50 mA:\n - ADS1299 Analog supply\n - LTC2947 supply\n\n1V8 (clean) @ 10 mA:\n - ADAU1777 Analog supply\n\n5V25 (intermediate) @ 100 mA:\n - clean voltage buck-boost\n\n5V @ 1.2 A:\n - SoM core voltage
+$Sheet
+S 6450 3800 800  350 
+U 60F89803
+F0 "5V25" 50
+F1 "5V25.sch" 50
+F2 "OK" O R 7250 4050 50 
+F3 "+PWR" I L 6450 3900 50 
+F4 "+5V25" O R 7250 3900 50 
+F5 "ENA" I L 6450 4000 50 
+$EndSheet
+Text Label 6400 3900 2    50   ~ 0
++PWR
+Wire Wire Line
+	6400 3900 6450 3900
 $Comp
 L Device:R_Small R?
 U 1 1 610D8759
 P 6300 4000
 AR Path="/609A79EB/60F89803/610D8759" Ref="R?"  Part="1" 
-AR Path="/609A79EB/610D8759" Ref="R9"  Part="1" 
-F 0 "R9" V 6404 4000 50  0000 C CNN
+AR Path="/609A79EB/610D8759" Ref="R6"  Part="1" 
+F 0 "R6" V 6404 4000 50  0000 C CNN
 F 1 "4k7" V 6495 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 6300 4000 50  0001 C CNN
 F 3 "~" H 6300 4000 50  0001 C CNN
@@ -2455,13 +2431,15 @@ Wire Wire Line
 	6400 4000 6450 4000
 Text Label 6150 4000 2    50   ~ 0
 +PWR
+Wire Wire Line
+	6150 4550 6200 4550
 $Comp
 L Device:R_Small R?
 U 1 1 610E9FA4
 P 6300 4550
 AR Path="/609A79EB/60F89803/610E9FA4" Ref="R?"  Part="1" 
-AR Path="/609A79EB/610E9FA4" Ref="R10"  Part="1" 
-F 0 "R10" V 6404 4550 50  0000 C CNN
+AR Path="/609A79EB/610E9FA4" Ref="R7"  Part="1" 
+F 0 "R7" V 6404 4550 50  0000 C CNN
 F 1 "4k7" V 6495 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 6300 4550 50  0001 C CNN
 F 3 "~" H 6300 4550 50  0001 C CNN
@@ -2469,5 +2447,21 @@ F 3 "~" H 6300 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6150 4550 6200 4550
+	6400 4550 6450 4550
+Text Label 6150 4550 2    50   ~ 0
+STAGE_2
+Wire Wire Line
+	6400 4450 6450 4450
+Text Label 6400 4450 2    50   ~ 0
++PWR
+$Sheet
+S 6450 4350 800  350 
+U 60FA92B1
+F0 "SD-power" 50
+F1 "SD-power.sch" 50
+F2 "OK" O R 7250 4600 50 
+F3 "+PWR" I L 6450 4450 50 
+F4 "+3V3_SD" O R 7250 4450 50 
+F5 "ENA" I L 6450 4550 50 
+$EndSheet
 $EndSCHEMATC

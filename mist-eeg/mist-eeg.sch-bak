@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 11
 Title "Portiloop"
-Date "2021-06-07"
-Rev "1A"
+Date "2021-08-03"
+Rev "1D"
 Comp "MIST Lab"
 Comment1 "Designed by Xavier L'Heureux"
 Comment2 ""
@@ -23,8 +23,7 @@ F3 "+5V0_ANA" O L 1500 1250 50
 F4 "+1V8_ANA" O L 1500 1350 50 
 F5 "PWR_SDA" B R 2450 1350 50 
 F6 "PWR_SCL" I R 2450 1250 50 
-F7 "AUDIO_OK" O R 2450 1450 50 
-F8 "+5V_SOM" O R 2450 1550 50 
+F7 "+5V_SOM" O R 2450 1550 50 
 $EndSheet
 Wire Wire Line
 	1600 4200 1700 4200
@@ -53,19 +52,17 @@ SD_CLK
 Text Label 2550 4400 0    50   ~ 0
 ~SD_CONNECTED~
 $Sheet
-S 4250 1000 800  600 
+S 4250 1000 800  500 
 U 60A94F19
 F0 "audio" 50
 F1 "audio.sch" 50
-F2 "~PD~" I L 4250 1200 50 
-F3 "+1V8_ANA" I L 4250 1100 50 
-F4 "SDA" B L 4250 1300 50 
-F5 "SCL" I L 4250 1400 50 
-F6 "SDATA" I R 5050 1300 50 
-F7 "LRCLK" I R 5050 1200 50 
-F8 "BCLK" I R 5050 1100 50 
-F9 "PWR_OK" I L 4250 1500 50 
-F10 "MCLK" I R 5050 1400 50 
+F2 "+1V8_ANA" I L 4250 1100 50 
+F3 "SDA" B L 4250 1300 50 
+F4 "SCL" I L 4250 1400 50 
+F5 "SDATA" I R 5050 1300 50 
+F6 "LRCLK" I R 5050 1200 50 
+F7 "BCLK" I R 5050 1100 50 
+F8 "MCLK" I R 5050 1400 50 
 $EndSheet
 $Sheet
 S 6950 950  750  550 
@@ -102,10 +99,6 @@ Wire Wire Line
 	4200 1300 4250 1300
 Text Label 4200 1300 2    50   ~ 0
 AUDIO_SDA
-Text Label 4200 1200 2    50   ~ 0
-~AUDIO_PWDN~
-Wire Wire Line
-	4200 1200 4250 1200
 Text Label 5100 1100 0    50   ~ 0
 AUDIO_BCLK
 Text Label 5100 1200 0    50   ~ 0
@@ -336,18 +329,14 @@ Wire Wire Line
 	6450 5000 6500 5000
 Wire Wire Line
 	6500 4900 6450 4900
-Text Label 6500 5400 0    50   ~ 0
+Text Label 6500 5300 0    50   ~ 0
 AUDIO_SCL
 Wire Wire Line
-	6500 5400 6450 5400
-Wire Wire Line
 	6500 5300 6450 5300
-Text Label 6500 5300 0    50   ~ 0
-AUDIO_SDA
-Text Label 6500 5200 0    50   ~ 0
-~AUDIO_PWDN~
 Wire Wire Line
 	6500 5200 6450 5200
+Text Label 6500 5200 0    50   ~ 0
+AUDIO_SDA
 Text Label 1450 1350 2    50   ~ 0
 +1V8_ANA
 Text Label 1450 1250 2    50   ~ 0
@@ -370,8 +359,8 @@ Wire Wire Line
 	2450 1250 2500 1250
 Text Notes 7600 6500 0    79   ~ 16
 State:\n - Preliminary schematics: done\n - Layout: done\n - Revised schematic: done\n - Schematic validation: done\n - Layout validation: done\n - BOM optimization: done\n - Physical testing: to do
-Text Notes 8900 1300 0    79   ~ 16
-PS I2C addresses:\n - 0x5C: HW monitor
+Text Notes 8650 1400 0    79   ~ 16
+PS I2C addresses:\n - 0x5C: HW monitor\n\nAudio I2C address: 0x0A
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 60C34BA2
@@ -394,10 +383,6 @@ F 3 "~" H 4450 7050 50  0001 C CNN
 	1    4450 7050
 	1    0    0    -1  
 $EndComp
-Text Label 2500 1450 0    50   ~ 0
-AUDIO_PWR_OK
-Wire Wire Line
-	2500 1450 2450 1450
 Text Label 1450 1450 2    50   ~ 0
 +3V3_SD
 Wire Wire Line
@@ -429,10 +414,6 @@ Text Label 4500 5400 2    50   ~ 0
 +5V_SOM
 Wire Wire Line
 	4500 5400 4550 5400
-Text Label 4200 1500 2    50   ~ 0
-AUDIO_PWR_OK
-Wire Wire Line
-	4200 1500 4250 1500
 $Sheet
 S 4550 3200 1900 2300
 U 61085AB7
@@ -468,15 +449,14 @@ F28 "~EEG_DRDY~" I L 4550 5000 50
 F29 "AUDIO_BCLK" O R 6450 4900 50 
 F30 "AUDIO_LRCLK" O R 6450 5000 50 
 F31 "AUDIO_SDATA" O R 6450 5100 50 
-F32 "~AUDIO_PWDN~" O R 6450 5200 50 
-F33 "AUDIO_SDA" B R 6450 5300 50 
-F34 "AUDIO_SCL" O R 6450 5400 50 
-F35 "CTRL_SDA" B L 4550 5150 50 
-F36 "CTRL_SCL" O L 4550 5250 50 
-F37 "+5V_SOM" I L 4550 5400 50 
-F38 "+3V3_IN" I L 4550 3300 50 
-F39 "AUDIO_MCLK" O R 6450 4800 50 
-F40 "~SD_RST~" O L 4550 4100 50 
+F32 "AUDIO_SDA" B R 6450 5200 50 
+F33 "AUDIO_SCL" O R 6450 5300 50 
+F34 "CTRL_SDA" B L 4550 5150 50 
+F35 "CTRL_SCL" O L 4550 5250 50 
+F36 "+5V_SOM" I L 4550 5400 50 
+F37 "+3V3_IN" I L 4550 3300 50 
+F38 "AUDIO_MCLK" O R 6450 4800 50 
+F39 "~SD_RST~" O L 4550 4100 50 
 $EndSheet
 Text Label 5100 1400 0    50   ~ 0
 AUDIO_MCLK

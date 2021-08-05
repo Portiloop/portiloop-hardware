@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 10 11
 Title "Portiloop"
-Date "2021-06-07"
-Rev "1A"
+Date "2021-08-03"
+Rev "1D"
 Comp "MIST Lab"
 Comment1 "Designed by Xavier L'Heureux"
 Comment2 ""
@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Micro_SD_Card_Det J5
+L Connector:Micro_SD_Card_Det J4
 U 1 1 60A233B4
 P 4600 3900
-AR Path="/60A0E6BC/60A233B4" Ref="J5"  Part="1" 
+AR Path="/60A0E6BC/60A233B4" Ref="J4"  Part="1" 
 AR Path="/60A8612C/60A233B4" Ref="J?"  Part="1" 
 AR Path="/60A7CCD6/60A233B4" Ref="J?"  Part="1" 
-F 0 "J5" H 4550 4717 50  0000 C CNN
+F 0 "J4" H 4550 4717 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 4550 4626 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 6650 4600 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 4600 4000 50  0001 C CNN
@@ -28,13 +28,13 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L power:GND #PWR098
 U 1 1 60A29691
 P 3650 4500
-AR Path="/60A0E6BC/60A29691" Ref="#PWR0119"  Part="1" 
+AR Path="/60A0E6BC/60A29691" Ref="#PWR098"  Part="1" 
 AR Path="/60A8612C/60A29691" Ref="#PWR?"  Part="1" 
 AR Path="/60A7CCD6/60A29691" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0119" H 3650 4250 50  0001 C CNN
+F 0 "#PWR098" H 3650 4250 50  0001 C CNN
 F 1 "GND" H 3655 4327 50  0000 C CNN
 F 2 "" H 3650 4500 50  0001 C CNN
 F 3 "" H 3650 4500 50  0001 C CNN
@@ -44,13 +44,13 @@ $EndComp
 Wire Wire Line
 	3700 3800 3650 3800
 $Comp
-L Device:R_Small R98
+L Device:R_Small R73
 U 1 1 60A2B32B
 P 1900 4450
-AR Path="/60A0E6BC/60A2B32B" Ref="R98"  Part="1" 
+AR Path="/60A0E6BC/60A2B32B" Ref="R73"  Part="1" 
 AR Path="/60A8612C/60A2B32B" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A2B32B" Ref="R?"  Part="1" 
-F 0 "R98" H 1841 4404 50  0000 R CNN
+F 0 "R73" H 1841 4404 50  0000 R CNN
 F 1 "4k7" H 1841 4495 50  0000 R CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 1900 4450 50  0001 C CNN
 F 3 "~" H 1900 4450 50  0001 C CNN
@@ -75,13 +75,13 @@ Text Label 8900 3750 0    50   ~ 0
 Text Label 3650 3150 0    50   ~ 0
 +PWR
 $Comp
-L Device:R_Small R99
+L Device:R_Small R74
 U 1 1 60A76D6B
 P 3300 3500
-AR Path="/60A0E6BC/60A76D6B" Ref="R99"  Part="1" 
+AR Path="/60A0E6BC/60A76D6B" Ref="R74"  Part="1" 
 AR Path="/60A8612C/60A76D6B" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A76D6B" Ref="R?"  Part="1" 
-F 0 "R99" V 3250 3600 50  0000 L CNN
+F 0 "R74" V 3250 3600 50  0000 L CNN
 F 1 "0R" V 3195 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 3500 50  0001 C CNN
 F 3 "~" H 3300 3500 50  0001 C CNN
@@ -89,13 +89,13 @@ F 3 "~" H 3300 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R100
+L Device:R_Small R75
 U 1 1 60A76E23
 P 3300 3600
-AR Path="/60A0E6BC/60A76E23" Ref="R100"  Part="1" 
+AR Path="/60A0E6BC/60A76E23" Ref="R75"  Part="1" 
 AR Path="/60A8612C/60A76E23" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A76E23" Ref="R?"  Part="1" 
-F 0 "R100" V 3250 3700 50  0000 L CNN
+F 0 "R75" V 3250 3700 50  0000 L CNN
 F 1 "0R" V 3195 3600 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 3600 50  0001 C CNN
 F 3 "~" H 3300 3600 50  0001 C CNN
@@ -103,13 +103,13 @@ F 3 "~" H 3300 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R103
+L Device:R_Small R78
 U 1 1 60A76FE9
 P 3300 4100
-AR Path="/60A0E6BC/60A76FE9" Ref="R103"  Part="1" 
+AR Path="/60A0E6BC/60A76FE9" Ref="R78"  Part="1" 
 AR Path="/60A8612C/60A76FE9" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A76FE9" Ref="R?"  Part="1" 
-F 0 "R103" V 3250 4200 50  0000 L CNN
+F 0 "R78" V 3250 4200 50  0000 L CNN
 F 1 "0R" V 3195 4100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 4100 50  0001 C CNN
 F 3 "~" H 3300 4100 50  0001 C CNN
@@ -117,13 +117,13 @@ F 3 "~" H 3300 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R104
+L Device:R_Small R79
 U 1 1 60A7708B
 P 3300 4200
-AR Path="/60A0E6BC/60A7708B" Ref="R104"  Part="1" 
+AR Path="/60A0E6BC/60A7708B" Ref="R79"  Part="1" 
 AR Path="/60A8612C/60A7708B" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A7708B" Ref="R?"  Part="1" 
-F 0 "R104" V 3250 4300 50  0000 L CNN
+F 0 "R79" V 3250 4300 50  0000 L CNN
 F 1 "0R" V 3195 4200 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 4200 50  0001 C CNN
 F 3 "~" H 3300 4200 50  0001 C CNN
@@ -131,13 +131,13 @@ F 3 "~" H 3300 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R105
+L Device:R_Small R80
 U 1 1 60A7712D
 P 3300 4300
-AR Path="/60A0E6BC/60A7712D" Ref="R105"  Part="1" 
+AR Path="/60A0E6BC/60A7712D" Ref="R80"  Part="1" 
 AR Path="/60A8612C/60A7712D" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A7712D" Ref="R?"  Part="1" 
-F 0 "R105" V 3250 4400 50  0000 L CNN
+F 0 "R80" V 3250 4400 50  0000 L CNN
 F 1 "0R" V 3195 4300 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 4300 50  0001 C CNN
 F 3 "~" H 3300 4300 50  0001 C CNN
@@ -153,12 +153,12 @@ Wire Wire Line
 Wire Wire Line
 	3400 3700 3700 3700
 $Comp
-L Device:C_Small C87
+L Device:C_Small C80
 U 1 1 60AB5AA5
 P 3450 3200
-AR Path="/60A0E6BC/60AB5AA5" Ref="C87"  Part="1" 
+AR Path="/60A0E6BC/60AB5AA5" Ref="C80"  Part="1" 
 AR Path="/60A7CCD6/60AB5AA5" Ref="C?"  Part="1" 
-F 0 "C87" V 3221 3200 50  0000 C CNN
+F 0 "C80" V 3221 3200 50  0000 C CNN
 F 1 "0u1F" V 3312 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3450 3200 50  0001 C CNN
 F 3 "~" H 3450 3200 50  0001 C CNN
@@ -198,12 +198,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 4350 1900 4300
 $Comp
-L power:PWR_FLAG #FLG05
+L power:PWR_FLAG #FLG03
 U 1 1 610BF823
 P 3650 3200
-AR Path="/60A0E6BC/610BF823" Ref="#FLG05"  Part="1" 
+AR Path="/60A0E6BC/610BF823" Ref="#FLG03"  Part="1" 
 AR Path="/60A7CCD6/610BF823" Ref="#FLG?"  Part="1" 
-F 0 "#FLG05" H 3650 3275 50  0001 C CNN
+F 0 "#FLG03" H 3650 3275 50  0001 C CNN
 F 1 "PWR_FLAG" V 3650 3328 50  0000 L CNN
 F 2 "" H 3650 3200 50  0001 C CNN
 F 3 "~" H 3650 3200 50  0001 C CNN
@@ -231,13 +231,13 @@ Wire Wire Line
 Wire Wire Line
 	3400 4100 3700 4100
 $Comp
-L Device:R_Small R101
+L Device:R_Small R76
 U 1 1 60A76EC5
 P 3300 3700
-AR Path="/60A0E6BC/60A76EC5" Ref="R101"  Part="1" 
+AR Path="/60A0E6BC/60A76EC5" Ref="R76"  Part="1" 
 AR Path="/60A8612C/60A76EC5" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A76EC5" Ref="R?"  Part="1" 
-F 0 "R101" V 3250 3800 50  0000 L CNN
+F 0 "R76" V 3250 3800 50  0000 L CNN
 F 1 "0R" V 3195 3700 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 3700 50  0001 C CNN
 F 3 "~" H 3300 3700 50  0001 C CNN
@@ -245,13 +245,13 @@ F 3 "~" H 3300 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R102
+L Device:R_Small R77
 U 1 1 60A76F57
 P 3300 3900
-AR Path="/60A0E6BC/60A76F57" Ref="R102"  Part="1" 
+AR Path="/60A0E6BC/60A76F57" Ref="R77"  Part="1" 
 AR Path="/60A8612C/60A76F57" Ref="R?"  Part="1" 
 AR Path="/60A7CCD6/60A76F57" Ref="R?"  Part="1" 
-F 0 "R102" V 3250 4000 50  0000 L CNN
+F 0 "R77" V 3250 4000 50  0000 L CNN
 F 1 "0R" V 3195 3900 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 3900 50  0001 C CNN
 F 3 "~" H 3300 3900 50  0001 C CNN
@@ -261,10 +261,10 @@ $EndComp
 Wire Wire Line
 	3400 3900 3700 3900
 $Comp
-L power:+3V3 #PWR0116
+L power:+3V3 #PWR095
 U 1 1 6116A372
 P 1850 4600
-F 0 "#PWR0116" H 1850 4450 50  0001 C CNN
+F 0 "#PWR095" H 1850 4450 50  0001 C CNN
 F 1 "+3V3" V 1865 4728 50  0000 L CNN
 F 2 "" H 1850 4600 50  0001 C CNN
 F 3 "" H 1850 4600 50  0001 C CNN
@@ -278,10 +278,10 @@ Text HLabel 8850 3250 1    50   Input ~ 0
 Text HLabel 8150 4350 0    50   Input ~ 0
 ~RST~
 $Comp
-L Diode:SM6T6V8A D15
+L Diode:SM6T6V8A D13
 U 1 1 611EF240
 P 3150 4500
-F 0 "D15" H 3050 4450 50  0000 R CNN
+F 0 "D13" H 3050 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 3250 4050 50  0000 C CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 3150 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 3100 4500 50  0001 C CNN
@@ -293,10 +293,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 4300 3200 4300
 $Comp
-L Diode:SM6T6V8A D14
+L Diode:SM6T6V8A D12
 U 1 1 611F1C84
 P 3000 4500
-F 0 "D14" H 2900 4450 50  0000 R CNN
+F 0 "D12" H 2900 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 3045 4580 50  0001 L CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 3000 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2950 4500 50  0001 C CNN
@@ -304,10 +304,10 @@ F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2950 4500 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:SM6T6V8A D13
+L Diode:SM6T6V8A D11
 U 1 1 611F1DD4
 P 2850 4500
-F 0 "D13" H 2750 4450 50  0000 R CNN
+F 0 "D11" H 2750 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 2895 4580 50  0001 L CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2850 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2800 4500 50  0001 C CNN
@@ -315,10 +315,10 @@ F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2800 4500 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:SM6T6V8A D12
+L Diode:SM6T6V8A D10
 U 1 1 611F1F24
 P 2700 4500
-F 0 "D12" H 2600 4450 50  0000 R CNN
+F 0 "D10" H 2600 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 2745 4580 50  0001 L CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2700 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2650 4500 50  0001 C CNN
@@ -339,10 +339,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 3900 3200 3900
 $Comp
-L Diode:SM6T6V8A D11
+L Diode:SM6T6V8A D9
 U 1 1 611F5D3C
 P 2550 4500
-F 0 "D11" H 2450 4450 50  0000 R CNN
+F 0 "D9" H 2450 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 2595 4580 50  0001 L CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2550 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2500 4500 50  0001 C CNN
@@ -350,10 +350,10 @@ F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2500 4500 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:SM6T6V8A D10
+L Diode:SM6T6V8A D8
 U 1 1 611F5EC4
 P 2400 4500
-F 0 "D10" H 2300 4450 50  0000 R CNN
+F 0 "D8" H 2300 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 2445 4580 50  0001 L CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2400 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2350 4500 50  0001 C CNN
@@ -361,10 +361,10 @@ F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2350 4500 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:SM6T6V8A D9
+L Diode:SM6T6V8A D7
 U 1 1 611F604C
 P 2250 4500
-F 0 "D9" H 2150 4450 50  0000 R CNN
+F 0 "D7" H 2150 4450 50  0000 R CNN
 F 1 "TPD1E6B06DPLR" V 2295 4580 50  0001 L CNN
 F 2 "Diode_SMD:D_0201_0603Metric" H 2250 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/sm6t.pdf" H 2200 4500 50  0001 C CNN
@@ -384,10 +384,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 3500 3200 3500
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR096
 U 1 1 611F8FF2
 P 2700 4750
-F 0 "#PWR0117" H 2700 4500 50  0001 C CNN
+F 0 "#PWR096" H 2700 4500 50  0001 C CNN
 F 1 "GND" H 2705 4577 50  0000 C CNN
 F 2 "" H 2700 4750 50  0001 C CNN
 F 3 "" H 2700 4750 50  0001 C CNN
@@ -464,10 +464,10 @@ $EndComp
 Wire Wire Line
 	8150 4350 8200 4350
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR0101
 U 1 1 6124838F
 P 8500 4600
-F 0 "#PWR0120" H 8500 4350 50  0001 C CNN
+F 0 "#PWR0101" H 8500 4350 50  0001 C CNN
 F 1 "GND" H 8505 4427 50  0000 C CNN
 F 2 "" H 8500 4600 50  0001 C CNN
 F 3 "" H 8500 4600 50  0001 C CNN
@@ -479,10 +479,10 @@ Wire Wire Line
 Text HLabel 8500 3200 1    50   Input ~ 0
 +PWR_IN
 $Comp
-L Device:R_Small R106
+L Device:R_Small R82
 U 1 1 6125B0BC
 P 8500 3350
-F 0 "R106" H 8441 3396 50  0000 R CNN
+F 0 "R82" H 8441 3396 50  0000 R CNN
 F 1 "4k7" H 8441 3305 50  0000 R CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 8500 3350 50  0001 C CNN
 F 3 "~" H 8500 3350 50  0001 C CNN
@@ -506,10 +506,10 @@ F 3 "~" H 8750 3500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR097
 U 1 1 6130D5F8
 P 3300 3200
-F 0 "#PWR0118" H 3300 2950 50  0001 C CNN
+F 0 "#PWR097" H 3300 2950 50  0001 C CNN
 F 1 "GND" V 3305 3072 50  0000 R CNN
 F 2 "" H 3300 3200 50  0001 C CNN
 F 3 "" H 3300 3200 50  0001 C CNN
@@ -525,8 +525,8 @@ L power:GND #PWR?
 U 1 1 610A6E66
 P 5700 4400
 AR Path="/610A6E66" Ref="#PWR?"  Part="1" 
-AR Path="/60A0E6BC/610A6E66" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 5700 4150 50  0001 C CNN
+AR Path="/60A0E6BC/610A6E66" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 5700 4150 50  0001 C CNN
 F 1 "GND" V 5705 4272 50  0000 R CNN
 F 2 "" H 5700 4400 50  0001 C CNN
 F 3 "" H 5700 4400 50  0001 C CNN
@@ -540,8 +540,8 @@ P 5550 4400
 AR Path="/609A79EB/60EAD252/610A6E6C" Ref="FB?"  Part="1" 
 AR Path="/609A79EB/60BBE340/610A6E6C" Ref="FB?"  Part="1" 
 AR Path="/610A6E6C" Ref="FB?"  Part="1" 
-AR Path="/60A0E6BC/610A6E6C" Ref="FB1"  Part="1" 
-F 0 "FB1" V 5695 4400 50  0000 C CNN
+AR Path="/60A0E6BC/610A6E6C" Ref="FB2"  Part="1" 
+F 0 "FB2" V 5695 4400 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 5786 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 4400 50  0001 C CNN
 F 3 "~" H 5550 4400 50  0001 C CNN
@@ -570,10 +570,10 @@ $EndComp
 Text HLabel 8150 3550 1    50   Input ~ 0
 +PWR_IN
 $Comp
-L Device:R_Small R11
+L Device:R_Small R81
 U 1 1 6108C1B2
 P 8150 3700
-F 0 "R11" H 8091 3746 50  0000 R CNN
+F 0 "R81" H 8091 3746 50  0000 R CNN
 F 1 "4k7" H 8091 3655 50  0000 R CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 8150 3700 50  0001 C CNN
 F 3 "~" H 8150 3700 50  0001 C CNN
@@ -588,10 +588,10 @@ Connection ~ 8150 3900
 Wire Wire Line
 	8150 3900 8200 3900
 $Comp
-L power:GND #PWR01
+L power:GND #PWR0100
 U 1 1 61092F2A
 P 7500 3950
-F 0 "#PWR01" H 7500 3700 50  0001 C CNN
+F 0 "#PWR0100" H 7500 3700 50  0001 C CNN
 F 1 "GND" H 7505 3777 50  0000 C CNN
 F 2 "" H 7500 3950 50  0001 C CNN
 F 3 "" H 7500 3950 50  0001 C CNN
