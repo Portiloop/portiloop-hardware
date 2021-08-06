@@ -1,4 +1,4 @@
-### Module positions - created on Thu Aug  5 15:26:07 2021 ###
+### Module positions - created on Fri Aug  6 13:55:03 2021 ###
 ### Printed by Pcbnew version kicad 5.1.10
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -15,7 +15,7 @@ C22       0u1F                  C_0201_0603Metric                        223.329
 C23       0u1F                  C_0201_0603Metric                        237.8075   -68.9610   90.0000  bottom
 C24       0u1F                  C_0201_0603Metric                        223.5835   -71.6280  270.0000  bottom
 C25       0u1F                  C_0201_0603Metric                        237.8075   -70.4850   90.0000  bottom
-C26       47uF                  C_1210_3225Metric                        217.1610   -74.4220  180.0000  bottom
+C26       100uF                 C_1210_3225Metric                        217.1610   -74.4220  180.0000  bottom
 C27       1uF                   C_0201_0603Metric                        238.9505   -73.2790  180.0000  bottom
 C28       1uF                   C_0201_0603Metric                        225.4885   -78.4860  180.0000  bottom
 C29       1uF                   C_0201_0603Metric                        222.1865   -72.8345    0.0000  bottom
@@ -88,9 +88,9 @@ R44       1M                    R_0603_1608Metric                        221.551
 R70       0R                    R_0603_1608Metric                        237.1725   -82.9310    0.0000  bottom
 R71       DNF                   R_0603_1608Metric                        237.1725   -84.5185    0.0000  bottom
 R72       DNF                   R_0603_1608Metric                        206.4380   -73.1520    0.0000  bottom
-R73       4k7                   R_0201_0603Metric                        204.4700   -73.1520   90.0000  bottom
+R73       4k7                   R_0201_0603Metric                        204.5208   -73.6600  270.0000  bottom
 R74       DNF                   R_0603_1608Metric                        206.4385   -71.6280    0.0000  bottom
-R75       4k7                   R_0201_0603Metric                        204.4700   -71.6280  270.0000  bottom
+R75       4k7                   R_0201_0603Metric                        204.5208   -71.6280   90.0000  bottom
 SW4       RESET                 SW_SPST_TL3342                           243.2050   -84.8360    0.0000  bottom
 U1        LTC2947               LTC2947                                  214.6300  -101.9810  180.0000  bottom
 U7        ADS1299               TQFP-64_10x10mm_P0.5mm                   230.6955   -72.3900  270.0000  bottom
@@ -111,7 +111,7 @@ C55       0u1F                  C_0201_0603Metric                        234.823
 C56       0u1F                  C_0201_0603Metric                        240.2205   -69.2785  180.0000  top
 FB1       Ferrite_Bead_Small    R_0603_1608Metric                        219.0025   -72.3605   90.0000  top
 FB2       Ferrite_Bead_Small    R_0603_1608Metric                        245.4910  -107.1880    0.0000  top
-J4        Molex_104031          microSD_HC_Molex_104031-0811             242.1255   -98.4885   90.0000  top
+J4        Micro_SD_Card_Det     microSD_HC_Molex_104031-0811             242.1255   -98.4885   90.0000  top
 Q1        NMOS_DGS_(3V3)        SOT-23                                   205.6765  -106.5530   90.0000  top
 Q2        NMOS_DGS_(3.3V)       SOT-23                                   223.6470   -92.0115    0.0000  top
 Q3        NMOS_DGS_(3.3V)       SOT-23                                   227.2030   -92.0750   90.0000  top
@@ -139,7 +139,7 @@ R52       1k                    R_0402_1005Metric                        235.585
 R53       1k                    R_0402_1005Metric                        236.8550   -42.4180  270.0000  top
 R54       1k                    R_0402_1005Metric                        238.1250   -42.4180  270.0000  top
 R55       4k7                   R_0201_0603Metric                        242.1890   -45.5930  180.0000  top
-R56       4k7                   R_0201_0603Metric                        205.0415   -38.9890  180.0000  top
+R56       4k7                   R_0201_0603Metric                        206.8195   -38.9890  180.0000  top
 R57       4k7                   R_0201_0603Metric                        239.5220  -108.3564  180.0000  top
 R58       0R                    R_0603_1608Metric                        234.0610  -102.4890  180.0000  top
 R59       0R                    R_0603_1608Metric                        234.0610  -100.9650  180.0000  top

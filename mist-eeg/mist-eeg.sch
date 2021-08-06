@@ -482,4 +482,28 @@ Wire Wire Line
 	2450 4500 2550 4500
 NoConn ~ 4450 7150
 NoConn ~ 4150 7150
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 610DB8B8
+P 4750 7050
+F 0 "H3" H 4850 7096 50  0000 L CNN
+F 1 "MountingHole" H 4850 7005 50  0001 L CNN
+F 2 "mist-eeg:MountingHole_1.6mm" H 4750 7050 50  0001 C CNN
+F 3 "~" H 4750 7050 50  0001 C CNN
+	1    4750 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4750 7150
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 610DF3C6
+P 5050 7050
+F 0 "H4" H 5150 7096 50  0000 L CNN
+F 1 "MountingHole" H 5150 7005 50  0001 L CNN
+F 2 "mist-eeg:MountingHole_1.6mm" H 5050 7050 50  0001 C CNN
+F 3 "~" H 5050 7050 50  0001 C CNN
+	1    5050 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5050 7150
 $EndSCHEMATC
