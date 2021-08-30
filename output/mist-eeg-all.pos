@@ -1,4 +1,4 @@
-### Module positions - created on Fri Aug  6 15:03:40 2021 ###
+### Module positions - created on Thu Aug 26 11:02:37 2021 ###
 ### Printed by Pcbnew version kicad 5.1.10
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -112,6 +112,9 @@ C56       0u1F                  C_0201_0603Metric                        240.220
 FB1       Ferrite_Bead_Small    R_0603_1608Metric                        219.0025   -72.3605   90.0000  top
 FB2       Ferrite_Bead_Small    R_0603_1608Metric                        245.4910  -107.1880    0.0000  top
 J4        Micro_SD_Card_Det     microSD_HC_Molex_104031-0811             242.1255   -98.4885   90.0000  top
+J7        J1312                 DF40HC3.0-100DS-0.4V58                   206.9800   -70.1100  270.0000  top
+J8        J1311                 DF40HC3.0-100DS-0.4V58                   229.7500   -52.1300  180.0000  top
+J9        J1310                 DF40HC3.0-100DS-0.4V58                   245.2800   -70.1100  270.0000  top
 Q1        NMOS_DGS_(3V3)        SOT-23                                   205.6765  -106.5530   90.0000  top
 Q2        NMOS_DGS_(3.3V)       SOT-23                                   223.6470   -92.0115    0.0000  top
 Q3        NMOS_DGS_(3.3V)       SOT-23                                   227.2030   -92.0750   90.0000  top
@@ -158,4 +161,5 @@ SW3       SD_RST                SW_SPST_TL3342                           226.060
 U4        LT3042xMSE            MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm   218.3765   -62.2300   90.0000  top
 U5        LT3042xMSE            MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm   222.1357   -76.3651   90.0000  top
 U6        SGTL5000XNAA3         QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm      214.3035   -73.1860  270.0000  top
+U8        NX5427001Z            NX5427001Z                               240.1570   -72.0090   90.0000  top
 ## End
