@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name "2023-01-27_22-49-04")(type "Legacy")(uri "${KIPRJMOD}/footprints/2023-01-27_22-49-04.lib")(options "")(descr ""))
-  (lib (name "2023-01-27_23-17-14")(type "Legacy")(uri "${KIPRJMOD}/footprints/2023-01-27_23-17-14.lib")(options "")(descr ""))
-  (lib (name "2023-01-28_00-48-13")(type "Legacy")(uri "${KIPRJMOD}/footprints/2023-01-28_00-48-13.lib")(options "")(descr ""))
-)

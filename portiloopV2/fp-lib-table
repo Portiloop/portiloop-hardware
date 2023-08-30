@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name "Capacitor_SMD")(type "KiCad")(uri "${KIPRJMOD}/Capacitor_SMD.pretty")(options "")(descr ""))
-  (lib (name "PIEEG")(type "KiCad")(uri "${KIPRJMOD}/footprints/pieeg.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints/footprints.pretty")(options "")(descr ""))
-  (lib (name "piEEG_footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints/piEEG_footprints")(options "")(descr ""))
-)
