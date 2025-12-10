@@ -6,7 +6,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "Portiloop_Schematic")
-		(date "2025-12-09")
+		(date "2025-12-10")
 		(rev "2.3")
 		(company "MIST Lab.")
 		(comment 1 "Designed by: S. Ehsan Marjani B.")
@@ -9215,13 +9215,7 @@
 		(uuid "05394d3f-cad2-40a3-9830-3a192411d146")
 	)
 	(junction
-		(at 17.526 249.174)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f530b22-1785-4da9-9d01-7c2ee92e4b53")
-	)
-	(junction
-		(at 61.722 249.428)
+		(at 58.42 249.428)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15ba3cc5-d37e-41b9-a521-bfbde2eb4b59")
@@ -9401,6 +9395,12 @@
 		(uuid "50e6b88c-1bd3-4928-86fd-758de4de04a3")
 	)
 	(junction
+		(at 167.64 48.006)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55faf469-1588-48b6-957a-09bbe1b5bad5")
+	)
+	(junction
 		(at 80.01 70.9422)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9431,7 +9431,7 @@
 		(uuid "6adf03a0-4d99-40ee-8f6d-b5b14539f02e")
 	)
 	(junction
-		(at 67.564 251.714)
+		(at 70.866 251.714)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c94e67-52ca-4d28-b0c6-0846702262ab")
@@ -9467,7 +9467,7 @@
 		(uuid "84d9e60c-f44a-42ca-8c7e-c60da1323b98")
 	)
 	(junction
-		(at 168.656 193.04)
+		(at 167.386 214.884)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872cb293-cce0-44bb-a983-dd53940cf62b")
@@ -9485,7 +9485,7 @@
 		(uuid "8a69ef92-f8f0-4916-881c-88e23700b523")
 	)
 	(junction
-		(at 61.722 262.128)
+		(at 58.42 262.128)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b43ea14-0160-40cf-b358-9f36cfa3ec1c")
@@ -9551,13 +9551,13 @@
 		(uuid "aaed983d-cbd7-4d23-8041-ca58ff6d45d7")
 	)
 	(junction
-		(at 173.482 204.47)
+		(at 172.212 226.314)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf3c295-c53f-42f7-bb0a-fecc8dd7cc03")
 	)
 	(junction
-		(at 61.722 267.208)
+		(at 58.42 267.208)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afaf5caf-ef96-41b2-a69f-b14caad34377")
@@ -9593,7 +9593,7 @@
 		(uuid "c267b475-bfe2-4f92-a4a3-81e07b08570e")
 	)
 	(junction
-		(at 67.564 264.922)
+		(at 70.866 264.922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2b1af6f-d738-4b96-af6c-d90226271a0d")
@@ -9641,6 +9641,12 @@
 		(uuid "c933003a-40a8-41cc-a69c-ec19f80cd86d")
 	)
 	(junction
+		(at 16.764 249.174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d00b4900-2b28-43d9-8b81-9a513162788a")
+	)
+	(junction
 		(at 32.766 178.562)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9659,7 +9665,7 @@
 		(uuid "d213b5e4-f95c-41ef-ae36-42912ba68e57")
 	)
 	(junction
-		(at 58.928 226.568)
+		(at 55.626 226.568)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d23ca5ac-bc4d-44a2-90ac-0b3eaa4af6f8")
@@ -9683,7 +9689,7 @@
 		(uuid "d8badea5-8c71-45ca-a29b-f57162c84d68")
 	)
 	(junction
-		(at 61.722 241.808)
+		(at 58.42 241.808)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db4b157b-163f-4abc-89f1-302df80d5ecd")
@@ -9705,6 +9711,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eba86257-82d7-47a8-b1ae-f0df7904699e")
+	)
+	(junction
+		(at 167.64 45.466)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edce0358-fa0a-4285-a245-c09ed578eecf")
 	)
 	(junction
 		(at 20.066 134.62)
@@ -9767,6 +9779,12 @@
 		(uuid "f851cee6-b119-4b0c-8e63-a2d07e0c2720")
 	)
 	(junction
+		(at 70.866 267.208)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb1a3c2c-0661-4e2b-a42b-13f6beacbef6")
+	)
+	(junction
 		(at 167.894 152.908)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9785,6 +9803,14 @@
 		(uuid "ff0e3aa6-d3b4-4041-aedb-283b22b4372a")
 	)
 	(no_connect
+		(at 53.086 244.348)
+		(uuid "016ae8ee-c6b1-415a-a271-77b247c0b3d7")
+	)
+	(no_connect
+		(at 53.086 246.888)
+		(uuid "02418ff6-a016-493f-ad38-228fa4a32cd9")
+	)
+	(no_connect
 		(at 165.1 35.306)
 		(uuid "039ea6e2-b8cc-4879-95a4-6085b57c01f6")
 	)
@@ -9797,20 +9823,36 @@
 		(uuid "06285649-2f9c-4475-88ea-cd7e265ac2d3")
 	)
 	(no_connect
-		(at 189.23 135.636)
+		(at 189.484 182.118)
 		(uuid "1b592800-210c-4340-a065-dcb5054f0b17")
+	)
+	(no_connect
+		(at 32.766 231.648)
+		(uuid "1b5b33f3-6770-4e7b-bb92-115dc6a43f11")
 	)
 	(no_connect
 		(at 124.46 37.846)
 		(uuid "21d47010-e1ae-4c1a-898d-f1af7c9a512d")
 	)
 	(no_connect
-		(at 189.23 144.272)
+		(at 53.086 236.728)
+		(uuid "21ee102c-05df-4ee5-bcad-5dca6110f5b2")
+	)
+	(no_connect
+		(at 138.176 181.864)
+		(uuid "226810f7-c48b-41e4-8a13-6b0153fa3eec")
+	)
+	(no_connect
+		(at 189.484 190.754)
 		(uuid "25a6ba88-d60c-408a-86a6-55c794c1ebeb")
 	)
 	(no_connect
 		(at 124.46 32.766)
 		(uuid "380f8802-3dfc-48f4-b5e5-3c71fe1aaf11")
+	)
+	(no_connect
+		(at 53.086 272.288)
+		(uuid "40c84736-1119-49c2-bc6c-1e4488238989")
 	)
 	(no_connect
 		(at 165.1 78.486)
@@ -9821,8 +9863,20 @@
 		(uuid "44295cb7-f5d2-4301-b9ed-04c9b8d6d683")
 	)
 	(no_connect
+		(at 53.086 251.968)
+		(uuid "4cce9aee-330e-47df-906f-c366d4659a6c")
+	)
+	(no_connect
 		(at 121.158 147.828)
 		(uuid "4d284d0b-1f37-40ac-8768-d07b67ad2dcc")
+	)
+	(no_connect
+		(at 53.086 269.748)
+		(uuid "59052fc2-3717-4cad-aa37-abfd34817a99")
+	)
+	(no_connect
+		(at 53.086 264.668)
+		(uuid "59bdc829-ba05-45ba-bfce-9de39c079c4e")
 	)
 	(no_connect
 		(at 124.46 27.686)
@@ -9841,24 +9895,72 @@
 		(uuid "807dfc0a-32e3-4ad3-924d-0077586938dc")
 	)
 	(no_connect
+		(at 138.176 186.944)
+		(uuid "83e0a130-8df0-4ed5-8d10-fa8c7b6e9c07")
+	)
+	(no_connect
 		(at 165.1 68.326)
 		(uuid "870098f9-d99a-4fa4-9b57-3956716eaf67")
+	)
+	(no_connect
+		(at 35.306 191.262)
+		(uuid "8d816645-e8f0-4a15-ac9c-cc1b2529c0be")
 	)
 	(no_connect
 		(at 165.1 75.946)
 		(uuid "94ab2bb7-ce11-457d-8901-22a82a39d533")
 	)
 	(no_connect
-		(at 189.23 148.844)
+		(at 189.484 195.326)
 		(uuid "9feb1710-86d5-4c90-b39e-7f75c06687fc")
 	)
 	(no_connect
-		(at 189.23 139.954)
+		(at 53.086 239.268)
+		(uuid "a23e71ed-56f2-4ab8-9ce3-990d8f3b01d9")
+	)
+	(no_connect
+		(at 189.484 186.436)
 		(uuid "a84a134c-7ff2-4d2b-a19d-c93c7c3f78a3")
+	)
+	(no_connect
+		(at 32.766 226.568)
+		(uuid "a8d8f9e2-a092-46fb-914f-ddaf3afa99db")
+	)
+	(no_connect
+		(at 53.086 234.188)
+		(uuid "b45a0ebe-572b-4d8f-92e9-71a29ace0a0c")
+	)
+	(no_connect
+		(at 32.766 244.348)
+		(uuid "c1a7936f-0e5d-4d1c-9c67-64a7777c1d77")
 	)
 	(no_connect
 		(at 124.46 42.926)
 		(uuid "c696fa36-211f-4538-88ac-d6d9ee96481d")
+	)
+	(no_connect
+		(at 32.766 229.108)
+		(uuid "cfcbc2df-8ba0-45a7-bc05-99e587606f18")
+	)
+	(no_connect
+		(at 35.306 186.182)
+		(uuid "d5aabc15-b23c-4203-bb2a-4423b266e608")
+	)
+	(no_connect
+		(at 53.086 259.588)
+		(uuid "d5d348c7-0bb1-4c85-b3b8-1f2b8a60cfa4")
+	)
+	(no_connect
+		(at 32.766 246.888)
+		(uuid "dc8bbf66-de73-4ed3-9d14-010b61bc9f31")
+	)
+	(no_connect
+		(at 53.086 257.048)
+		(uuid "edc56f97-6bc0-41be-b766-7ac4488d825e")
+	)
+	(no_connect
+		(at 32.766 259.588)
+		(uuid "f16ded35-9e48-4cda-854b-ef09c1c3ca85")
 	)
 	(wire
 		(pts
@@ -9872,7 +9974,7 @@
 	)
 	(polyline
 		(pts
-			(xy 186.436 121.92) (xy 186.436 169.926)
+			(xy 186.69 121.92) (xy 186.69 198.374)
 		)
 		(stroke
 			(width 0.4826)
@@ -9912,13 +10014,23 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 269.748) (xy 36.068 269.748)
+			(xy 14.224 269.748) (xy 32.766 269.748)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(uuid "04b2abe2-2d6d-44b3-9883-f48e72e4fa75")
+	)
+	(wire
+		(pts
+			(xy 70.866 267.208) (xy 70.866 274.32)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "057dface-7f72-41d7-811a-5c4a8af57732")
 	)
 	(wire
 		(pts
@@ -9962,7 +10074,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.882 251.714) (xy 67.564 251.714)
+			(xy 75.184 251.714) (xy 70.866 251.714)
 		)
 		(stroke
 			(width 0.254)
@@ -10092,7 +10204,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 250.19) (xy 17.526 249.174)
+			(xy 16.764 251.46) (xy 16.764 249.174)
 		)
 		(stroke
 			(width 0.254)
@@ -10152,7 +10264,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.196 183.896) (xy 177.8 183.896)
+			(xy 169.926 205.74) (xy 176.53 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10182,7 +10294,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 262.128) (xy 36.068 262.128)
+			(xy 14.224 262.128) (xy 32.766 262.128)
 		)
 		(stroke
 			(width 0.254)
@@ -10462,7 +10574,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.502 232.41) (xy 79.502 238.252)
+			(xy 82.804 232.41) (xy 82.804 238.252)
 		)
 		(stroke
 			(width 0.254)
@@ -10522,7 +10634,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.518 264.922) (xy 80.518 280.162)
+			(xy 83.82 264.922) (xy 83.82 280.162)
 		)
 		(stroke
 			(width 0.254)
@@ -10642,7 +10754,7 @@
 	)
 	(polyline
 		(pts
-			(xy 186.436 169.926) (xy 154.432 169.926)
+			(xy 186.69 198.374) (xy 154.686 198.374)
 		)
 		(stroke
 			(width 0.4826)
@@ -10702,7 +10814,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.558 234.188) (xy 36.068 234.188)
+			(xy 16.256 234.188) (xy 32.766 234.188)
 		)
 		(stroke
 			(width 0.254)
@@ -10742,7 +10854,7 @@
 	)
 	(polyline
 		(pts
-			(xy 196.85 170.942) (xy 155.448 170.942)
+			(xy 196.85 199.39) (xy 155.448 199.39)
 		)
 		(stroke
 			(width 0.4826)
@@ -10772,7 +10884,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.384 249.174) (xy 24.384 257.048)
+			(xy 21.082 249.174) (xy 21.082 257.048)
 		)
 		(stroke
 			(width 0.254)
@@ -10832,7 +10944,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.656 204.47) (xy 173.482 204.47)
+			(xy 167.386 226.314) (xy 172.212 226.314)
 		)
 		(stroke
 			(width 0)
@@ -10889,6 +11001,16 @@
 			(type default)
 		)
 		(uuid "36786f1c-5181-4b16-85f0-7a9b5e48989f")
+	)
+	(wire
+		(pts
+			(xy 16.764 249.174) (xy 14.224 249.174)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "36d533bf-33b6-46c0-961b-9de1c96ebe29")
 	)
 	(wire
 		(pts
@@ -10952,7 +11074,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.564 251.714) (xy 67.564 264.922)
+			(xy 70.866 251.714) (xy 70.866 264.922)
 		)
 		(stroke
 			(width 0.254)
@@ -10969,6 +11091,16 @@
 			(type default)
 		)
 		(uuid "3c7ce120-cf13-4c8b-bc01-1a05414f0e1b")
+	)
+	(wire
+		(pts
+			(xy 58.42 267.208) (xy 70.866 267.208)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3c98445d-7ed6-4c42-ac00-b3464f8b231d")
 	)
 	(wire
 		(pts
@@ -10992,7 +11124,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.656 182.118) (xy 168.656 181.102)
+			(xy 167.386 203.962) (xy 167.386 202.946)
 		)
 		(stroke
 			(width 0)
@@ -11102,7 +11234,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.564 264.922) (xy 67.564 265.684)
+			(xy 70.866 264.922) (xy 70.866 267.208)
 		)
 		(stroke
 			(width 0.254)
@@ -11122,7 +11254,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 241.808) (xy 61.722 241.808)
+			(xy 53.086 241.808) (xy 58.42 241.808)
 		)
 		(stroke
 			(width 0.254)
@@ -11162,7 +11294,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.136 264.922) (xy 67.564 264.922)
+			(xy 75.438 264.922) (xy 70.866 264.922)
 		)
 		(stroke
 			(width 0.254)
@@ -11192,17 +11324,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 50.546) (xy 177.8 50.546)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "474ffa3f-a01b-418b-9cb8-0bbd745018a7")
-	)
-	(wire
-		(pts
-			(xy 80.518 264.922) (xy 74.676 264.922)
+			(xy 83.82 264.922) (xy 77.978 264.922)
 		)
 		(stroke
 			(width 0.254)
@@ -11229,16 +11351,6 @@
 			(type default)
 		)
 		(uuid "491dd413-413d-44b4-b931-33141debed9a")
-	)
-	(wire
-		(pts
-			(xy 176.53 224.79) (xy 194.056 224.79)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "49251fa5-962b-495f-b3df-283945e3a8ec")
 	)
 	(wire
 		(pts
@@ -11272,7 +11384,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.384 249.174) (xy 17.526 249.174)
+			(xy 21.082 249.174) (xy 16.764 249.174)
 		)
 		(stroke
 			(width 0.254)
@@ -11372,6 +11484,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 50.546) (xy 167.64 50.546)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed2f533-6f11-4433-bdf6-e6fd56ce6747")
+	)
+	(wire
+		(pts
 			(xy 55.626 93.98) (xy 55.626 96.52)
 		)
 		(stroke
@@ -11442,7 +11564,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 229.108) (xy 58.928 229.108)
+			(xy 53.086 229.108) (xy 55.626 229.108)
 		)
 		(stroke
 			(width 0.254)
@@ -11572,7 +11694,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 236.728) (xy 36.068 236.728)
+			(xy 14.224 236.728) (xy 32.766 236.728)
 		)
 		(stroke
 			(width 0.254)
@@ -11592,7 +11714,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.482 204.47) (xy 177.8 204.47)
+			(xy 172.212 226.314) (xy 176.53 226.314)
 		)
 		(stroke
 			(width 0)
@@ -11672,7 +11794,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.502 232.41) (xy 83.566 232.41)
+			(xy 82.804 232.41) (xy 86.868 232.41)
 		)
 		(stroke
 			(width 0.254)
@@ -11742,7 +11864,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.068 274.828) (xy 30.988 274.828)
+			(xy 32.766 274.828) (xy 27.686 274.828)
 		)
 		(stroke
 			(width 0.254)
@@ -11892,16 +12014,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.528 224.79) (xy 161.29 224.79)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "680ed401-4444-41a7-a749-88310d3efeaa")
-	)
-	(wire
-		(pts
 			(xy 124.46 88.646) (xy 116.84 88.646)
 		)
 		(stroke
@@ -11972,7 +12084,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.928 226.568) (xy 56.388 226.568)
+			(xy 55.626 226.568) (xy 53.086 226.568)
 		)
 		(stroke
 			(width 0.254)
@@ -12112,7 +12224,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 249.428) (xy 61.722 262.128)
+			(xy 58.42 249.428) (xy 58.42 262.128)
 		)
 		(stroke
 			(width 0.254)
@@ -12122,7 +12234,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.564 238.252) (xy 67.564 251.714)
+			(xy 70.866 238.252) (xy 70.866 251.714)
 		)
 		(stroke
 			(width 0.254)
@@ -12132,7 +12244,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 249.174) (xy 17.526 236.728)
+			(xy 14.224 249.174) (xy 14.224 236.728)
 		)
 		(stroke
 			(width 0.254)
@@ -12292,16 +12404,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 48.006) (xy 177.8 48.006)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "7c7cfeb1-8cd1-4c5f-8e65-42b386d94011")
-	)
-	(wire
-		(pts
 			(xy 99.06 19.812) (xy 99.06 20.066)
 		)
 		(stroke
@@ -12322,7 +12424,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.448 254.508) (xy 36.068 254.508)
+			(xy 25.146 254.508) (xy 32.766 254.508)
 		)
 		(stroke
 			(width 0.254)
@@ -12372,7 +12474,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 231.648) (xy 61.722 241.808)
+			(xy 58.42 231.648) (xy 58.42 241.808)
 		)
 		(stroke
 			(width 0.254)
@@ -12392,7 +12494,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 267.208) (xy 61.722 262.128)
+			(xy 58.42 267.208) (xy 58.42 262.128)
 		)
 		(stroke
 			(width 0.254)
@@ -12432,7 +12534,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.422 251.714) (xy 83.82 251.714)
+			(xy 77.724 251.714) (xy 87.122 251.714)
 		)
 		(stroke
 			(width 0.254)
@@ -12482,7 +12584,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.656 194.31) (xy 168.656 193.04)
+			(xy 167.386 216.154) (xy 167.386 214.884)
 		)
 		(stroke
 			(width 0)
@@ -12492,7 +12594,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 187.96) (xy 177.8 183.896)
+			(xy 176.53 209.804) (xy 176.53 205.74)
 		)
 		(stroke
 			(width 0)
@@ -12512,7 +12614,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.564 238.252) (xy 71.882 238.252)
+			(xy 70.866 238.252) (xy 75.184 238.252)
 		)
 		(stroke
 			(width 0.254)
@@ -12562,7 +12664,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 269.748) (xy 83.82 251.714)
+			(xy 87.122 269.748) (xy 87.122 251.714)
 		)
 		(stroke
 			(width 0.254)
@@ -12592,7 +12694,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.384 257.048) (xy 36.068 257.048)
+			(xy 21.082 257.048) (xy 32.766 257.048)
 		)
 		(stroke
 			(width 0.254)
@@ -12692,7 +12794,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.566 250.444) (xy 83.566 232.41)
+			(xy 86.868 250.444) (xy 86.868 232.41)
 		)
 		(stroke
 			(width 0.254)
@@ -12702,7 +12804,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.558 241.808) (xy 36.068 241.808)
+			(xy 16.256 241.808) (xy 32.766 241.808)
 		)
 		(stroke
 			(width 0.254)
@@ -12712,7 +12814,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.656 192.278) (xy 168.656 193.04)
+			(xy 167.386 214.122) (xy 167.386 214.884)
 		)
 		(stroke
 			(width 0)
@@ -12782,7 +12884,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.502 238.252) (xy 74.422 238.252)
+			(xy 82.804 238.252) (xy 77.724 238.252)
 		)
 		(stroke
 			(width 0.254)
@@ -12792,7 +12894,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.448 251.968) (xy 36.068 251.968)
+			(xy 25.146 251.968) (xy 32.766 251.968)
 		)
 		(stroke
 			(width 0.254)
@@ -12829,6 +12931,16 @@
 			(type default)
 		)
 		(uuid "9c1e1328-338c-4143-a529-f348c1d053e8")
+	)
+	(wire
+		(pts
+			(xy 53.086 274.828) (xy 68.834 274.828)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9ca0bfa8-195c-4900-b531-d1904e3a5e30")
 	)
 	(wire
 		(pts
@@ -12892,7 +13004,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.432 169.926) (xy 154.432 215.138)
+			(xy 154.686 198.374) (xy 154.686 215.138)
 		)
 		(stroke
 			(width 0.4826)
@@ -12912,7 +13024,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 267.208) (xy 36.068 267.208)
+			(xy 14.224 267.208) (xy 32.766 267.208)
 		)
 		(stroke
 			(width 0.254)
@@ -12952,7 +13064,7 @@
 	)
 	(polyline
 		(pts
-			(xy 196.85 251.968) (xy 196.85 170.942)
+			(xy 196.85 251.968) (xy 196.85 199.39)
 		)
 		(stroke
 			(width 0.4826)
@@ -13002,7 +13114,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 254.508) (xy 59.944 254.508)
+			(xy 53.086 254.508) (xy 56.642 254.508)
 		)
 		(stroke
 			(width 0.254)
@@ -13012,7 +13124,7 @@
 	)
 	(polyline
 		(pts
-			(xy 155.448 170.942) (xy 155.448 216.154)
+			(xy 155.448 199.39) (xy 155.448 216.154)
 		)
 		(stroke
 			(width 0.4826)
@@ -13022,7 +13134,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.656 181.102) (xy 185.166 181.102)
+			(xy 167.386 202.946) (xy 183.896 202.946)
 		)
 		(stroke
 			(width 0)
@@ -13072,7 +13184,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.928 229.108) (xy 58.928 226.568)
+			(xy 55.626 229.108) (xy 55.626 226.568)
 		)
 		(stroke
 			(width 0.254)
@@ -13139,6 +13251,16 @@
 			(type default)
 		)
 		(uuid "b0f642eb-e44e-4747-9d08-48aa7b02d88d")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.006) (xy 167.64 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2860c8d-472c-45b7-8027-ef359de560c2")
 	)
 	(wire
 		(pts
@@ -13242,7 +13364,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 262.128) (xy 61.722 262.128)
+			(xy 53.086 262.128) (xy 58.42 262.128)
 		)
 		(stroke
 			(width 0.254)
@@ -13272,7 +13394,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 267.208) (xy 61.722 267.208)
+			(xy 53.086 267.208) (xy 58.42 267.208)
 		)
 		(stroke
 			(width 0.254)
@@ -13342,13 +13464,23 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 231.648) (xy 61.722 231.648)
+			(xy 53.086 231.648) (xy 58.42 231.648)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(uuid "bc4bbdd0-98e6-48e8-b4c0-344f6470288d")
+	)
+	(wire
+		(pts
+			(xy 167.64 50.546) (xy 167.64 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc65d808-de54-4c8e-8bd4-2700ba0a86fb")
 	)
 	(wire
 		(pts
@@ -13562,7 +13694,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 272.288) (xy 36.068 272.288)
+			(xy 14.224 272.288) (xy 32.766 272.288)
 		)
 		(stroke
 			(width 0.254)
@@ -13592,16 +13724,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 267.208) (xy 61.722 274.32)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "cf4ac78b-a9ac-469c-829f-72c6f81e6f21")
-	)
-	(wire
-		(pts
 			(xy 99.822 110.998) (xy 99.822 111.76)
 		)
 		(stroke
@@ -13609,6 +13731,16 @@
 			(type default)
 		)
 		(uuid "cf58a0b5-b54c-4810-ba22-330c61af694d")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.006) (xy 167.64 45.466)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf77ad45-a322-4186-b49f-134cdc243fe2")
 	)
 	(wire
 		(pts
@@ -13642,7 +13774,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.526 264.668) (xy 36.068 264.668)
+			(xy 14.224 264.668) (xy 32.766 264.668)
 		)
 		(stroke
 			(width 0.254)
@@ -13662,7 +13794,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.558 239.268) (xy 36.068 239.268)
+			(xy 16.256 239.268) (xy 32.766 239.268)
 		)
 		(stroke
 			(width 0.254)
@@ -13692,7 +13824,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.656 193.04) (xy 170.18 193.04)
+			(xy 167.386 214.884) (xy 168.91 214.884)
 		)
 		(stroke
 			(width 0)
@@ -13812,7 +13944,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.448 249.428) (xy 36.068 249.428)
+			(xy 25.146 249.428) (xy 32.766 249.428)
 		)
 		(stroke
 			(width 0.254)
@@ -13882,7 +14014,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.482 204.47) (xy 173.482 205.232)
+			(xy 172.212 226.314) (xy 172.212 227.076)
 		)
 		(stroke
 			(width 0)
@@ -13972,7 +14104,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 249.428) (xy 61.722 249.428)
+			(xy 53.086 249.428) (xy 58.42 249.428)
 		)
 		(stroke
 			(width 0.254)
@@ -14142,7 +14274,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 241.808) (xy 61.722 249.428)
+			(xy 58.42 241.808) (xy 58.42 249.428)
 		)
 		(stroke
 			(width 0.254)
@@ -14152,7 +14284,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 204.47) (xy 177.8 198.12)
+			(xy 176.53 226.314) (xy 176.53 219.964)
 		)
 		(stroke
 			(width 0)
@@ -14169,16 +14301,6 @@
 			(type default)
 		)
 		(uuid "f36426ed-7479-4f20-ba5d-0f7f3108a945")
-	)
-	(wire
-		(pts
-			(xy 139.7 224.79) (xy 150.368 224.79)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "f3de648d-52be-4481-a2c1-ed630ab6f3e0")
 	)
 	(wire
 		(pts
@@ -14351,7 +14473,7 @@
 		(uuid "ff870511-3a90-49f1-9990-5aec7ad35822")
 	)
 	(image
-		(at 192.2272 129.6162)
+		(at 192.4812 176.0982)
 		(scale 0.685712)
 		(uuid "2fea3f9c-a97b-4a77-88f7-98b3d8a00622")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAHAAAABpCAIAAABtWzBPAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -14606,7 +14728,7 @@
 		)
 	)
 	(label "GPIO65/UART1_TX"
-		(at 83.566 250.444 90)
+		(at 86.868 250.444 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14646,7 +14768,7 @@
 		(uuid "26980480-0f20-4db8-8ae0-d93dcdc77af4")
 	)
 	(label "CS"
-		(at 56.896 254.508 0)
+		(at 53.594 254.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14686,7 +14808,7 @@
 		(uuid "3ba59656-e36e-4caa-8957-90ed8686b3d3")
 	)
 	(label "GPIO22/LED_R"
-		(at 20.828 234.188 0)
+		(at 17.526 234.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14706,7 +14828,7 @@
 		(uuid "4e0c0da6-a302-49a1-8b88-4dccac856a0b")
 	)
 	(label "GPIO25/PWM_B"
-		(at 80.518 280.162 90)
+		(at 83.82 280.162 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14714,6 +14836,16 @@
 			(justify left bottom)
 		)
 		(uuid "505c1d3e-8ca5-438e-9eae-18483f12882c")
+	)
+	(label "GPIO39{slash}LEDCTL"
+		(at 53.848 274.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "514b046b-f813-4846-939e-4508f9036f70")
 	)
 	(label "GPIO9/LED_G"
 		(at 97.282 234.696 0)
@@ -14735,16 +14867,6 @@
 		)
 		(uuid "6540157e-dd56-419f-8e12-b9f763e7e5a8")
 	)
-	(label "GPIO3{slash}LEDCTL"
-		(at 167.64 48.006 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "655f2e75-7f6d-4cb3-9526-2a7f664663c5")
-	)
 	(label "E3"
 		(at 36.576 30.226 0)
 		(effects
@@ -14765,18 +14887,8 @@
 		)
 		(uuid "7e509ce7-bdc7-45fb-b2d0-c14a958a5480")
 	)
-	(label "GPIO3{slash}LEDCTL"
-		(at 171.704 181.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ec8e552-8077-4151-b312-3269c07460c0")
-	)
 	(label "GPIO64/UART1_RX"
-		(at 18.288 264.668 0)
+		(at 14.986 264.668 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14825,16 +14937,6 @@
 		)
 		(uuid "978f967d-6cc0-4f07-b852-e2800feefa07")
 	)
-	(label "GPIO4{slash}LED"
-		(at 140.208 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a84b4f16-cc0d-46d4-b4af-4a96414835f7")
-	)
 	(label "CS"
 		(at 167.64 27.686 0)
 		(effects
@@ -14846,7 +14948,7 @@
 		(uuid "ac99d2b9-3592-44c3-94eb-e556103750a4")
 	)
 	(label "GPIO9/LED_G"
-		(at 20.828 239.268 0)
+		(at 17.526 239.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14866,7 +14968,7 @@
 		(uuid "b6a3e709-356a-4a55-ac00-07ba73afac37")
 	)
 	(label "GPIO10/LED_B"
-		(at 20.828 241.808 0)
+		(at 17.526 241.808 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14886,7 +14988,7 @@
 		(uuid "ba3f68df-a80d-4363-9b28-2b49507e87bd")
 	)
 	(label "LEDGNDCTL"
-		(at 171.704 183.896 0)
+		(at 170.434 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14896,7 +14998,7 @@
 		(uuid "c07ee730-31dd-478e-813b-6927d8f88128")
 	)
 	(label "MISO"
-		(at 29.718 251.968 0)
+		(at 26.416 251.968 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14926,7 +15028,7 @@
 		(uuid "cac6ef5d-79dc-46ad-ba83-77cb1377c287")
 	)
 	(label "DRDY"
-		(at 18.542 272.288 0)
+		(at 15.24 272.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14934,16 +15036,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb082ca8-e559-493c-a769-6ac76ddc831e")
-	)
-	(label "GPIO4{slash}LED"
-		(at 167.386 50.546 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0c1f1b7-4a05-4a17-aeac-bf20d8c8b194")
 	)
 	(label "DRDY"
 		(at 167.64 30.226 0)
@@ -14954,16 +15046,6 @@
 			(justify left bottom)
 		)
 		(uuid "d26fce45-c1d6-42bc-931d-972bf3799097")
-	)
-	(label "LEDGNDCTL"
-		(at 183.388 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d28d2501-f099-48c8-a0b8-4ed9759ce8d6")
 	)
 	(label "LEDGNDCTL"
 		(at 179.832 244.602 0)
@@ -14986,7 +15068,7 @@
 		(uuid "d799aac7-79c2-4447-bfa3-8eb302b60af7")
 	)
 	(label "MOSI"
-		(at 29.718 249.428 0)
+		(at 26.416 249.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14996,7 +15078,7 @@
 		(uuid "dd4b4783-44b6-4bbf-bf18-b846491e4d4c")
 	)
 	(label "GPIO64/UART1_RX"
-		(at 83.82 269.748 90)
+		(at 87.122 269.748 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15005,8 +15087,18 @@
 		)
 		(uuid "e188f4e0-97d6-45d5-9852-98640c6abc42")
 	)
+	(label "GPIO39{slash}LEDCTL"
+		(at 168.91 202.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1ac4958-d092-4101-bafe-1ca10a649456")
+	)
 	(label "SCLK"
-		(at 29.718 254.508 0)
+		(at 26.416 254.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15016,7 +15108,7 @@
 		(uuid "e325a134-36dc-4151-9d17-8bf13dc78564")
 	)
 	(label "GPIO65/UART1_TX"
-		(at 18.288 262.128 0)
+		(at 14.986 262.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15026,7 +15118,7 @@
 		(uuid "eaab2e59-ff73-4d74-b3d3-7e7c2515083f")
 	)
 	(label "GPIO37"
-		(at 18.288 269.748 0)
+		(at 14.986 269.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15036,7 +15128,7 @@
 		(uuid "ee4527a8-96f7-423b-b0eb-5c3b1bed75f9")
 	)
 	(label "GPIO25/PWM_B"
-		(at 18.288 267.208 0)
+		(at 14.986 267.208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15438,7 +15530,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:1608[0603]_res")
-		(at 171.196 184.658 270)
+		(at 169.926 206.502 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15446,7 +15538,7 @@
 		(dnp no)
 		(uuid "03401776-5895-486b-8b28-f218710a2557")
 		(property "Reference" "R6"
-			(at 171.196 186.944 90)
+			(at 169.926 208.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15454,7 +15546,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 165.1 184.658 0)
+			(at 163.83 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,7 +15556,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:1608[0603]_res_3d"
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15473,7 +15565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,7 +15574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15491,7 +15583,7 @@
 			)
 		)
 		(property "PUBLISHED" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,7 +15593,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +15603,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15521,7 +15613,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15531,7 +15623,7 @@
 			)
 		)
 		(property "PUBLISHER" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15541,7 +15633,7 @@
 			)
 		)
 		(property "PACKAGEDESCRIPTION" ""
-			(at 171.196 184.658 0)
+			(at 169.926 206.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15551,7 +15643,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100"
-			(at 171.958 188.976 90)
+			(at 170.688 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15559,7 +15651,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15568,7 +15660,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15577,7 +15669,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15586,7 +15678,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15595,7 +15687,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15604,7 +15696,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15613,7 +15705,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15622,7 +15714,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,7 +15723,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15640,7 +15732,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15649,7 +15741,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15658,7 +15750,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +15759,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15676,7 +15768,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15685,7 +15777,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15694,7 +15786,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15703,7 +15795,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15712,7 +15804,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15721,7 +15813,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15730,7 +15822,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15739,7 +15831,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +15840,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15757,7 +15849,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15858,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15867,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15876,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15885,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15894,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 171.196 184.658 90)
+			(at 169.926 206.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20647,7 +20739,7 @@
 	)
 	(symbol
 		(lib_id "PortiloopKiCAD-altium-import:GND")
-		(at 30.988 274.828 0)
+		(at 27.686 274.828 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20655,7 +20747,7 @@
 		(dnp no)
 		(uuid "15e1670d-9e79-4a5e-88ad-fbbb238a3e8a")
 		(property "Reference" "#PWR0162"
-			(at 30.988 274.828 0)
+			(at 27.686 274.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20664,7 +20756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.988 281.178 0)
+			(at 27.686 281.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +20764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.988 274.828 0)
+			(at 27.686 274.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20681,7 +20773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.988 274.828 0)
+			(at 27.686 274.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20690,7 +20782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.988 274.828 0)
+			(at 27.686 274.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21103,7 +21195,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:board_screw")
-		(at 189.23 135.636 0)
+		(at 189.484 182.118 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21112,7 +21204,7 @@
 		(fields_autoplaced yes)
 		(uuid "187c491f-cfbc-482f-a955-5e5d18e9ae9a")
 		(property "Reference" "M1"
-			(at 193.802 135.6359 0)
+			(at 194.056 182.1179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21121,7 +21213,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 139.446 0)
+			(at 188.214 185.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21131,7 +21223,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:board_screw"
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,7 +21232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21149,7 +21241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21158,7 +21250,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21167,7 +21259,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21176,7 +21268,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21185,7 +21277,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21194,7 +21286,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21203,7 +21295,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21212,7 +21304,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21221,7 +21313,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21230,7 +21322,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21239,7 +21331,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21248,7 +21340,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21257,7 +21349,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21266,7 +21358,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21275,7 +21367,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21284,7 +21376,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21293,7 +21385,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21302,7 +21394,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21311,7 +21403,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21320,7 +21412,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21329,7 +21421,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21338,7 +21430,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,7 +21439,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21356,7 +21448,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21365,7 +21457,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21374,7 +21466,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21383,7 +21475,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21392,7 +21484,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21401,7 +21493,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 189.23 135.636 0)
+			(at 189.484 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23043,7 +23135,7 @@
 	)
 	(symbol
 		(lib_id "PortiloopKiCAD-altium-import:+5V")
-		(at 58.928 226.568 180)
+		(at 55.626 226.568 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23051,7 +23143,7 @@
 		(dnp no)
 		(uuid "21443f6e-c9cb-43b6-9145-0fe007529b00")
 		(property "Reference" "#PWR0155"
-			(at 58.928 226.568 0)
+			(at 55.626 226.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23060,7 +23152,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 58.928 222.758 0)
+			(at 55.626 222.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23068,7 +23160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.928 226.568 0)
+			(at 55.626 226.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23077,7 +23169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.928 226.568 0)
+			(at 55.626 226.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23086,7 +23178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.928 226.568 0)
+			(at 55.626 226.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24149,654 +24241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Portiloop:LTST-C190GKT")
-		(at 161.29 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "305aa8e4-07ab-4abd-9ada-58353fa49c5a")
-		(property "Reference" "D3"
-			(at 173.99 221.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTST-C190GKT"
-			(at 178.816 226.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Portiloop:FP-LTST-C190GKT-MFG"
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GPIO3.3v"
-			(at 180.34 221.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DOMINANT WAVELENGTH" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REVERSE VOLTAGE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENS STYLE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENS COLOR" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VIEWING ANGLE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FORWARD CURRENT" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER DISSIPATION" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENS TRANSPARENCY" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (METRIC)" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LUMINOUS INTENSITY" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF LEDS" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEPTH" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF PINS" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FORWARD VOLTAGE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WAVELENGTH" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF ELEMENTS" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE QUANTITY" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER RATING" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RADIATION HARDENING" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ILLUMINATION COLOR" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEST CURRENT" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 160.782 218.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTOMOTIVE" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONN ORIENTATION" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT MATERIAL" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT MATING LENGTH" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT PLATING" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT TYPE" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L1" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L2" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L3" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY DESCRIPTION" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FLAMMABILITY RATING" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT URL" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HOUSING COLOR" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HOUSING MATERIAL" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INSULATION RESISTANCE" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MATERIAL" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF CONTACTS" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF ROWS" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OCTOPART" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ROW SPACING" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE HIGH" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE LOW" ""
-			(at 161.29 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fe403dc-176a-4419-88fe-18337256a52f")
-		)
-		(pin "2"
-			(uuid "f1c3180c-3e07-4a58-8228-2ab11bbea287")
-		)
-		(instances
-			(project ""
-				(path "/0147f16a-c952-4891-8f53-a9fb8cddeb8d"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Portiloop:1608[0603]_res")
 		(at 43.434 68.326 0)
 		(unit 1)
@@ -25187,7 +24631,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:IRLML2502")
-		(at 175.26 193.04 0)
+		(at 173.99 214.884 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25196,7 +24640,7 @@
 		(fields_autoplaced yes)
 		(uuid "35129a15-644a-4a98-9ca3-3515bee3580d")
 		(property "Reference" "Q1"
-			(at 180.848 191.7699 0)
+			(at 179.578 213.6139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25205,7 +24649,7 @@
 			)
 		)
 		(property "Value" "IRLML2502"
-			(at 180.848 194.3099 0)
+			(at 179.578 216.1539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25214,7 +24658,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:SOT-23"
-			(at 180.34 194.945 0)
+			(at 179.07 216.789 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25225,7 +24669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 196.85 0)
+			(at 179.07 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25235,7 +24679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 193.04 0)
+			(at 173.99 214.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26535,7 +25979,7 @@
 	)
 	(symbol
 		(lib_id "PortiloopKiCAD-altium-import:GND")
-		(at 173.482 205.232 0)
+		(at 172.212 227.076 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26543,7 +25987,7 @@
 		(dnp no)
 		(uuid "4138bcb8-e16e-480a-8fc1-7d02c2bc816a")
 		(property "Reference" "#PWR04"
-			(at 173.482 205.232 0)
+			(at 172.212 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26552,7 +25996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.482 211.582 0)
+			(at 172.212 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26560,7 +26004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.482 205.232 0)
+			(at 172.212 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26569,7 +26013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.482 205.232 0)
+			(at 172.212 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26578,7 +26022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.482 205.232 0)
+			(at 172.212 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27303,395 +26747,6 @@
 			(project "v3"
 				(path "/0147f16a-c952-4891-8f53-a9fb8cddeb8d"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Portiloop:1608[0603]_res")
-		(at 152.908 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49f2f4a2-428b-451d-ba9e-b0d905f4636d")
-		(property "Reference" "R7"
-			(at 156.21 222.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 152.908 228.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Portiloop:1608[0603]_res_3d"
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHED" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONDATE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONNOTE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGEREFERENCE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHER" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1K"
-			(at 156.464 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AUTOMOTIVE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONN ORIENTATION" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT MATERIAL" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT MATING LENGTH" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT PLATING" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT TYPE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L1" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L2" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L3" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY DESCRIPTION" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FLAMMABILITY RATING" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT URL" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HOUSING COLOR" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HOUSING MATERIAL" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INSULATION RESISTANCE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MATERIAL" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF CONTACTS" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF ROWS" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OCTOPART" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ROW SPACING" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE HIGH" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE LOW" ""
-			(at 152.908 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4794929-b180-4fb5-816a-fa83e2479ecd")
-		)
-		(pin "1"
-			(uuid "45a19ee9-915d-45d4-8fb5-b9c15b5fda65")
-		)
-		(instances
-			(project "v3"
-				(path "/0147f16a-c952-4891-8f53-a9fb8cddeb8d"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -30025,7 +29080,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:board_screw")
-		(at 189.23 148.844 0)
+		(at 189.484 195.326 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30034,7 +29089,7 @@
 		(fields_autoplaced yes)
 		(uuid "583fa45e-af13-43cc-ad01-d0e75871e499")
 		(property "Reference" "M4"
-			(at 193.802 148.8439 0)
+			(at 194.056 195.3259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30043,7 +29098,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 152.654 0)
+			(at 188.214 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30053,7 +29108,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:board_screw"
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30062,7 +29117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30071,7 +29126,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30080,7 +29135,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30089,7 +29144,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30098,7 +29153,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30107,7 +29162,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30116,7 +29171,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30125,7 +29180,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30134,7 +29189,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30143,7 +29198,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30152,7 +29207,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30161,7 +29216,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30170,7 +29225,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30179,7 +29234,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30188,7 +29243,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30197,7 +29252,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30206,7 +29261,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30215,7 +29270,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30224,7 +29279,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30233,7 +29288,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30242,7 +29297,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30251,7 +29306,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30260,7 +29315,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30269,7 +29324,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30278,7 +29333,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30287,7 +29342,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30296,7 +29351,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30305,7 +29360,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30314,7 +29369,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30323,7 +29378,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 189.23 148.844 0)
+			(at 189.484 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31124,71 +30179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PortiloopKiCAD-altium-import:GND")
-		(at 61.722 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d7cb436-106e-4464-b448-3b8bd128554c")
-		(property "Reference" "#PWR0154"
-			(at 61.722 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 61.722 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.722 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 61.722 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 61.722 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ef11623e-ea9c-4a76-a028-9fae209a45f2")
-		)
-		(instances
-			(project ""
-				(path "/0147f16a-c952-4891-8f53-a9fb8cddeb8d"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Portiloop:1608[0603]_res")
 		(at 60.96 37.846 0)
 		(unit 1)
@@ -31579,7 +30569,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:board_screw")
-		(at 189.23 139.954 0)
+		(at 189.484 186.436 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31588,7 +30578,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f6bc292-0aa7-4d08-b68e-c63454d65f71")
 		(property "Reference" "M2"
-			(at 193.802 139.9539 0)
+			(at 194.056 186.4359 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31597,7 +30587,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 143.764 0)
+			(at 188.214 190.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31607,7 +30597,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:board_screw"
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31616,7 +30606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31625,7 +30615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31634,7 +30624,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31643,7 +30633,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31652,7 +30642,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31661,7 +30651,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31670,7 +30660,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31679,7 +30669,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31688,7 +30678,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31697,7 +30687,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31706,7 +30696,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31715,7 +30705,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31724,7 +30714,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31733,7 +30723,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31742,7 +30732,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31751,7 +30741,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31760,7 +30750,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31769,7 +30759,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31778,7 +30768,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31787,7 +30777,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31796,7 +30786,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31805,7 +30795,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31814,7 +30804,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31823,7 +30813,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31832,7 +30822,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31841,7 +30831,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31850,7 +30840,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31859,7 +30849,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31868,7 +30858,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31877,7 +30867,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 189.23 139.954 0)
+			(at 189.484 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33591,7 +32581,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:SSQ-120-03-G-D")
-		(at 41.148 224.028 0)
+		(at 37.846 224.028 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33599,7 +32589,7 @@
 		(dnp no)
 		(uuid "707ddc1a-d1ec-43a0-bd3b-fd73c904155f")
 		(property "Reference" "J1-A1"
-			(at 46.228 222.758 0)
+			(at 42.926 222.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33607,7 +32597,7 @@
 			)
 		)
 		(property "Value" "SSQ-120-03-G-D"
-			(at 46.228 279.4 0)
+			(at 42.926 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33615,7 +32605,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:FP-SSQ-120-03-G-D-MFG"
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33624,7 +32614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33633,7 +32623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33642,7 +32632,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33652,7 +32642,7 @@
 			)
 		)
 		(property "WITHSTANDING VOLTAGE" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33662,7 +32652,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33672,7 +32662,7 @@
 			)
 		)
 		(property "RATED CURRENT" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33682,7 +32672,7 @@
 			)
 		)
 		(property "DATASHEET URL" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33692,7 +32682,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33702,7 +32692,7 @@
 			)
 		)
 		(property "ROW NUMBER" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33712,7 +32702,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33722,7 +32712,7 @@
 			)
 		)
 		(property "GENDER" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33732,7 +32722,7 @@
 			)
 		)
 		(property "PACKAGE REFERENCE" "61304021821"
-			(at 41.148 281.94 0)
+			(at 37.846 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33742,7 +32732,7 @@
 			)
 		)
 		(property "ORIENTATION" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33752,7 +32742,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33762,7 +32752,7 @@
 			)
 		)
 		(property "MANUFACTURER URL" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33772,7 +32762,7 @@
 			)
 		)
 		(property "WORKING VOLTAGE" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33782,7 +32772,7 @@
 			)
 		)
 		(property "PUBLISHER" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33792,7 +32782,7 @@
 			)
 		)
 		(property "PIN NUMBER" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33802,7 +32792,7 @@
 			)
 		)
 		(property "PACKAGING" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33812,7 +32802,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 35.56 221.488 0)
+			(at 32.258 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33822,7 +32812,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33831,7 +32821,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33840,7 +32830,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33849,7 +32839,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33858,7 +32848,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33867,7 +32857,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33876,7 +32866,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33885,7 +32875,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33894,7 +32884,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33903,7 +32893,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33912,7 +32902,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33921,7 +32911,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33930,7 +32920,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33939,7 +32929,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33948,7 +32938,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33957,7 +32947,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33966,7 +32956,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33975,7 +32965,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33984,7 +32974,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33993,7 +32983,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34002,7 +32992,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34011,7 +33001,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34020,7 +33010,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34029,7 +33019,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34038,7 +33028,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34047,7 +33037,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34056,7 +33046,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34065,7 +33055,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 41.148 224.028 0)
+			(at 37.846 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40652,7 +39642,7 @@
 	)
 	(symbol
 		(lib_id "PortiloopKiCAD-altium-import:GND")
-		(at 17.526 250.19 0)
+		(at 16.764 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40660,7 +39650,7 @@
 		(dnp no)
 		(uuid "a6347fea-87e1-4897-bfe2-729d24d2f085")
 		(property "Reference" "#PWR0157"
-			(at 17.526 250.19 0)
+			(at 16.764 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40669,7 +39659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.526 256.54 0)
+			(at 16.764 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40677,7 +39667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.526 250.19 0)
+			(at 16.764 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40686,7 +39676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.526 250.19 0)
+			(at 16.764 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40695,7 +39685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 17.526 250.19 0)
+			(at 16.764 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44700,7 +43690,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:1608[0603]_res")
-		(at 171.196 196.85 270)
+		(at 169.926 218.694 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44708,7 +43698,7 @@
 		(dnp no)
 		(uuid "c1a2673c-4d74-4898-823c-4823d29a8b23")
 		(property "Reference" "R5"
-			(at 171.196 199.136 90)
+			(at 169.926 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44716,7 +43706,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 165.1 196.85 0)
+			(at 163.83 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44726,7 +43716,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:1608[0603]_res_3d"
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44735,7 +43725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44744,7 +43734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44753,7 +43743,7 @@
 			)
 		)
 		(property "PUBLISHED" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44763,7 +43753,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44773,7 +43763,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44783,7 +43773,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44793,7 +43783,7 @@
 			)
 		)
 		(property "PUBLISHER" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44803,7 +43793,7 @@
 			)
 		)
 		(property "PACKAGEDESCRIPTION" ""
-			(at 171.196 196.85 0)
+			(at 169.926 218.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44813,7 +43803,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100K"
-			(at 172.466 201.168 90)
+			(at 171.196 223.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44821,7 +43811,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44830,7 +43820,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44839,7 +43829,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44848,7 +43838,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44857,7 +43847,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44866,7 +43856,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44875,7 +43865,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44884,7 +43874,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44893,7 +43883,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44902,7 +43892,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44911,7 +43901,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44920,7 +43910,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44929,7 +43919,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44938,7 +43928,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44947,7 +43937,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44956,7 +43946,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44965,7 +43955,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44974,7 +43964,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44983,7 +43973,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44992,7 +43982,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45001,7 +43991,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45010,7 +44000,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45019,7 +44009,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45028,7 +44018,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45037,7 +44027,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45046,7 +44036,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45055,7 +44045,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45064,7 +44054,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 171.196 196.85 90)
+			(at 169.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46606,7 +45596,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:board_screw")
-		(at 189.23 144.272 0)
+		(at 189.484 190.754 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46615,7 +45605,7 @@
 		(fields_autoplaced yes)
 		(uuid "d17348ab-35e8-404d-94f5-035dbcd433d0")
 		(property "Reference" "M3"
-			(at 193.802 144.2719 0)
+			(at 194.056 190.7539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46624,7 +45614,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 148.082 0)
+			(at 188.214 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46634,7 +45624,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:board_screw"
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46643,7 +45633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46652,7 +45642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46661,7 +45651,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46670,7 +45660,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46679,7 +45669,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46688,7 +45678,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46697,7 +45687,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46706,7 +45696,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46715,7 +45705,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46724,7 +45714,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46733,7 +45723,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46742,7 +45732,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46751,7 +45741,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46760,7 +45750,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46769,7 +45759,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46778,7 +45768,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46787,7 +45777,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46796,7 +45786,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46805,7 +45795,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46814,7 +45804,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46823,7 +45813,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46832,7 +45822,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46841,7 +45831,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46850,7 +45840,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46859,7 +45849,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46868,7 +45858,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46877,7 +45867,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46886,7 +45876,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46895,7 +45885,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46904,7 +45894,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 189.23 144.272 0)
+			(at 189.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46926,7 +45916,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:61300211021")
-		(at 69.342 233.172 0)
+		(at 72.644 233.172 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46934,7 +45924,7 @@
 		(dnp no)
 		(uuid "d3c2e0b6-96d4-47a3-9099-a60361bc42a2")
 		(property "Reference" "JMP3-R1"
-			(at 69.088 226.822 0)
+			(at 72.39 226.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46943,7 +45933,7 @@
 			)
 		)
 		(property "Value" "61300211021"
-			(at 69.342 225.552 0)
+			(at 72.644 225.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46953,7 +45943,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:61300211021"
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46962,7 +45952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46971,7 +45961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46980,7 +45970,7 @@
 			)
 		)
 		(property "WITHSTANDING VOLTAGE" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46990,7 +45980,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47000,7 +45990,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47010,7 +46000,7 @@
 			)
 		)
 		(property "GENDER" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47020,7 +46010,7 @@
 			)
 		)
 		(property "MANUFACTURER URL" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47030,7 +46020,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47040,7 +46030,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47050,7 +46040,7 @@
 			)
 		)
 		(property "ROW NUMBER" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47060,7 +46050,7 @@
 			)
 		)
 		(property "PIN NUMBER" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47070,7 +46060,7 @@
 			)
 		)
 		(property "RATED CURRENT" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47080,7 +46070,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47090,7 +46080,7 @@
 			)
 		)
 		(property "PUBLISHER" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47100,7 +46090,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47110,7 +46100,7 @@
 			)
 		)
 		(property "ORIENTATION" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47120,7 +46110,7 @@
 			)
 		)
 		(property "DATASHEET URL" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47130,7 +46120,7 @@
 			)
 		)
 		(property "PACKAGING" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47140,7 +46130,7 @@
 			)
 		)
 		(property "PACKAGE REFERENCE" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47150,7 +46140,7 @@
 			)
 		)
 		(property "WORKING VOLTAGE" ""
-			(at 69.088 227.838 0)
+			(at 72.39 227.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47160,7 +46150,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47169,7 +46159,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47178,7 +46168,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47187,7 +46177,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47196,7 +46186,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47205,7 +46195,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47214,7 +46204,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47223,7 +46213,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47232,7 +46222,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47241,7 +46231,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47250,7 +46240,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47259,7 +46249,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47268,7 +46258,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47277,7 +46267,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47286,7 +46276,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47295,7 +46285,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47304,7 +46294,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47313,7 +46303,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47322,7 +46312,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47331,7 +46321,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47340,7 +46330,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47349,7 +46339,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47358,7 +46348,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47367,7 +46357,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47376,7 +46366,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47385,7 +46375,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47394,7 +46384,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47403,7 +46393,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 69.342 233.172 0)
+			(at 72.644 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50176,7 +49166,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:61300211021")
-		(at 69.342 246.634 0)
+		(at 72.644 246.634 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50184,7 +49174,7 @@
 		(dnp no)
 		(uuid "e83954f2-15cd-490a-afab-baa107e92726")
 		(property "Reference" "JMP2-R1"
-			(at 69.088 240.284 0)
+			(at 72.39 240.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50193,7 +49183,7 @@
 			)
 		)
 		(property "Value" "61300211021"
-			(at 69.342 239.014 0)
+			(at 72.644 239.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50203,7 +49193,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:61300211021"
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50212,7 +49202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50221,7 +49211,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50230,7 +49220,7 @@
 			)
 		)
 		(property "WITHSTANDING VOLTAGE" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50240,7 +49230,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50250,7 +49240,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50260,7 +49250,7 @@
 			)
 		)
 		(property "GENDER" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50270,7 +49260,7 @@
 			)
 		)
 		(property "MANUFACTURER URL" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50280,7 +49270,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50290,7 +49280,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50300,7 +49290,7 @@
 			)
 		)
 		(property "ROW NUMBER" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50310,7 +49300,7 @@
 			)
 		)
 		(property "PIN NUMBER" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50320,7 +49310,7 @@
 			)
 		)
 		(property "RATED CURRENT" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50330,7 +49320,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50340,7 +49330,7 @@
 			)
 		)
 		(property "PUBLISHER" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50350,7 +49340,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50360,7 +49350,7 @@
 			)
 		)
 		(property "ORIENTATION" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50370,7 +49360,7 @@
 			)
 		)
 		(property "DATASHEET URL" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50380,7 +49370,7 @@
 			)
 		)
 		(property "PACKAGING" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50390,7 +49380,7 @@
 			)
 		)
 		(property "PACKAGE REFERENCE" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50400,7 +49390,7 @@
 			)
 		)
 		(property "WORKING VOLTAGE" ""
-			(at 69.088 241.3 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50410,7 +49400,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50419,7 +49409,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50428,7 +49418,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50437,7 +49427,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50446,7 +49436,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50455,7 +49445,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50464,7 +49454,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50473,7 +49463,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50482,7 +49472,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50491,7 +49481,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50500,7 +49490,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50509,7 +49499,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50518,7 +49508,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50527,7 +49517,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50536,7 +49526,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50545,7 +49535,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50554,7 +49544,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50563,7 +49553,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50572,7 +49562,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50581,7 +49571,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50590,7 +49580,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50599,7 +49589,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50608,7 +49598,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50617,7 +49607,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50626,7 +49616,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50635,7 +49625,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50644,7 +49634,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50653,7 +49643,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 69.342 246.634 0)
+			(at 72.644 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51523,7 +50513,7 @@
 	)
 	(symbol
 		(lib_id "Portiloop:61300211021")
-		(at 69.596 259.842 0)
+		(at 72.898 259.842 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51531,7 +50521,7 @@
 		(dnp no)
 		(uuid "f68c1576-94d7-4563-89d9-6522bbab2c69")
 		(property "Reference" "JMP1-R1"
-			(at 69.342 253.492 0)
+			(at 72.644 253.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51540,7 +50530,7 @@
 			)
 		)
 		(property "Value" "61300211021"
-			(at 69.596 252.222 0)
+			(at 72.898 252.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51550,7 +50540,7 @@
 			)
 		)
 		(property "Footprint" "Portiloop:61300211021"
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51559,7 +50549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51568,7 +50558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51577,7 +50567,7 @@
 			)
 		)
 		(property "WITHSTANDING VOLTAGE" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51587,7 +50577,7 @@
 			)
 		)
 		(property "MOUNTING TECHNOLOGY" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51597,7 +50587,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51607,7 +50597,7 @@
 			)
 		)
 		(property "GENDER" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51617,7 +50607,7 @@
 			)
 		)
 		(property "MANUFACTURER URL" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51627,7 +50617,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51637,7 +50627,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51647,7 +50637,7 @@
 			)
 		)
 		(property "ROW NUMBER" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51657,7 +50647,7 @@
 			)
 		)
 		(property "PIN NUMBER" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51667,7 +50657,7 @@
 			)
 		)
 		(property "RATED CURRENT" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51677,7 +50667,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51687,7 +50677,7 @@
 			)
 		)
 		(property "PUBLISHER" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51697,7 +50687,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51707,7 +50697,7 @@
 			)
 		)
 		(property "ORIENTATION" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51717,7 +50707,7 @@
 			)
 		)
 		(property "DATASHEET URL" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51727,7 +50717,7 @@
 			)
 		)
 		(property "PACKAGING" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51737,7 +50727,7 @@
 			)
 		)
 		(property "PACKAGE REFERENCE" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51747,7 +50737,7 @@
 			)
 		)
 		(property "WORKING VOLTAGE" ""
-			(at 69.342 254.508 0)
+			(at 72.644 254.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51757,7 +50747,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51766,7 +50756,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51775,7 +50765,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51784,7 +50774,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51793,7 +50783,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51802,7 +50792,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51811,7 +50801,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51820,7 +50810,7 @@
 			)
 		)
 		(property "CONTACT TYPE" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51829,7 +50819,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51838,7 +50828,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51847,7 +50837,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51856,7 +50846,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51865,7 +50855,7 @@
 			)
 		)
 		(property "FLAMMABILITY RATING" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51874,7 +50864,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51883,7 +50873,7 @@
 			)
 		)
 		(property "HOUSING COLOR" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51892,7 +50882,7 @@
 			)
 		)
 		(property "HOUSING MATERIAL" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51901,7 +50891,7 @@
 			)
 		)
 		(property "INSULATION RESISTANCE" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51910,7 +50900,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51919,7 +50909,7 @@
 			)
 		)
 		(property "MATERIAL" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51928,7 +50918,7 @@
 			)
 		)
 		(property "MAX VOLTAGE RATING (AC)" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51937,7 +50927,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51946,7 +50936,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51955,7 +50945,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51964,7 +50954,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51973,7 +50963,7 @@
 			)
 		)
 		(property "ROW SPACING" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51982,7 +50972,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51991,7 +50981,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52000,7 +50990,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 69.596 259.842 0)
+			(at 72.898 259.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52025,7 +51015,7 @@
 	)
 	(symbol
 		(lib_id "PortiloopKiCAD-altium-import:GND")
-		(at 67.564 265.684 0)
+		(at 70.866 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52033,7 +51023,7 @@
 		(dnp no)
 		(uuid "f7c5fcef-379b-481f-a910-961b8aba9e9d")
 		(property "Reference" "#PWR0153"
-			(at 67.564 265.684 0)
+			(at 70.866 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52042,7 +51032,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.564 272.034 0)
+			(at 70.866 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52050,7 +51040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.564 265.684 0)
+			(at 70.866 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52059,7 +51049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.564 265.684 0)
+			(at 70.866 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52068,7 +51058,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.564 265.684 0)
+			(at 70.866 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
