@@ -13,7 +13,7 @@ The `ADS1299` is an ADC responsible for processing analog EEG signal.
 This repository open-sources all relevant plans for building this implementation.
 
 ![coralMini](figures/Coral_mini.JPG)
-![v2.2](figures/PortiloopV2Altium_PCB-03.JPG)
-![top](figures/PortiloopV2Altium_PCB.png)
-![back](figures/PortiloopV2Altium_PCB-02.png)
-![video](figures/video.gif)
+![v2.3](figures/PortiloopV2Altium_PCB-03.JPG)
+![top](figures/v2.3_top.png)
+![back](figures/v2.3_bottom.png)
+![video](figures/v2.3_3D.gif)

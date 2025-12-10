@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Portiloop")(type "KiCad")(uri "${KIPRJMOD}/Portiloop.kicad_sym")(options "")(descr ""))
+)
