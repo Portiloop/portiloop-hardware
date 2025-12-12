@@ -17,3 +17,4 @@ This repository open-sources all relevant plans for building this implementation
 ![top](figures/v2.3_top.png)
 ![back](figures/v2.3_bottom.png)
 ![video](figures/v2.3_3D.gif)
+![3D](portiloop.stl)
