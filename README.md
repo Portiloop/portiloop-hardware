@@ -17,4 +17,7 @@ This repository open-sources all relevant plans for building this implementation
 ![top](figures/v2.3_top.png)
 ![back](figures/v2.3_bottom.png)
 ![video](figures/v2.3_3D.gif)
-[View 3D model](portiloop.stl)
+
+To view the full interactive 3D model, click below:
+
+[![3D Preview](figures/v2.3_STL.png)](portiloop.stl)
