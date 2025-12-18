@@ -20,4 +20,7 @@ This repository open-sources all relevant plans for building this implementation
 
 To view the full interactive 3D model, click below:
 
-[![3D Preview](figures/v2.3_STL.png)](portiloop.stl)
+[![3D Preview Portiloop](figures/v2.3_STL.png)](portiloop.stl)
+[![3D Preview Box](figures/portiloop_box_stl.png)](portiloop_box.stl)
+[![3D Preview Box Cover](figures/portiloop_cover_stl.png)](portiloop_cover.stl)
+[![3D Preview Box Cover Stackable](figures/portiloop_cover_stackable_stl.png)](portiloop_cover_stackable.stl)
