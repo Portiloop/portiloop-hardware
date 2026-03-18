@@ -18,6 +18,10 @@ This repository open-sources all relevant plans for building this implementation
 ![back](figures/v2.3_bottom.png)
 ![video](figures/v2.3_3D.gif)
 
+This switch toggles between stackable and non-stackable modes (note that the stackable mode has not yet been fully tested).
+![stackable](figures/stackable.jpg)
+![non-stackable](figures/non-stackable.jpg)
+
 To view the full interactive 3D model, click below:
 
 [![3D Preview Portiloop](figures/v2.3_STL.png)](models/portiloop.stl)
