@@ -19,6 +19,7 @@ This repository open-sources all relevant plans for building this implementation
 ![video](figures/v2.3_3D.gif)
 
 This switch toggles between stackable and non-stackable modes (note that the stackable mode has not yet been fully tested).
+
 ![stackable](figures/stackable.jpg)
 ![non-stackable](figures/non-stackable.jpg)
 
