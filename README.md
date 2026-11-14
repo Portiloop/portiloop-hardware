@@ -29,3 +29,7 @@ To view the full interactive 3D model, click below:
 [![3D Preview Box](figures/portiloop_box_stl.png)](models/portiloop_box.stl)
 [![3D Preview Box Cover](figures/portiloop_cover_stl.png)](models/portiloop_cover.stl)
 [![3D Preview Box Cover Stackable](figures/portiloop_cover_stackable_stl.png)](models/portiloop_cover_stackable.stl)
+
+## License
+
+The Portiloop hardware design files in this repository are released under the [MIT License](LICENSE). Third-party git submodules keep their own licenses.
